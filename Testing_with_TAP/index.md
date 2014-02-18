@@ -13,5 +13,4 @@ How do you do TAP based testing with (insert language of choice here)?
 -    [Testing with Perl](/Testing_with_TAP/perl.html)
 -    [Testing with Erlang](/Testing_with_TAP/erlang.html)
 -    [Testing with Ruby](/Testing_with_TAP/ruby.html)
--    Testing with Ruby
--    Testing with Java
+-    [Testing with Java](/Testing_with_TAP/java.html)
