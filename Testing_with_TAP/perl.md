@@ -18,3 +18,5 @@ Here are some links to some of them; all of these use the Test Anything Protocol
 
 -    [TAP::Harness](http://search.cpan.org/~andya/Test-Harness/lib/TAP/Harness.pm)
 -    [Test::Harness](http://search.cpan.org/~andya/Test-Harness/lib/Test/Harness.pm)
+
+[TAP::Parser Cookbook](/Testing_with_TAP/perl/TAP::Parser_Cookbook.html) - Cooking with TAP
