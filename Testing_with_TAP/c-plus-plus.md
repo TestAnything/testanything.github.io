@@ -57,6 +57,7 @@ Before anything else, you need a testing plan. This basically declares how many 
  void plan(skip_all, const std::string& reason="");
  void plan(no_plan);
 ```
+
 The function plan is used to indicate the plan of your test run. Usually you will just give it the number of tests as argument.
 
 Alternatively, you can give it the skip_all or no_plan constants as arguments. The first means you will not run the tests at all, the second means you will run an unknown number of tests (the latter is not recommended).
@@ -108,6 +109,7 @@ ok is the basic test expression in TAP. It simply evaluates any expression, for 
 test_name is a very short description of the test that will be printed out. It makes it very easy to find a test in your script when it fails and gives others an idea of your intentions. test_name is optional, but we very strongly encourage its use.
 
 ####is(); isnt()
+
 ```
  template<typename T, typename U> bool is(const T& got, const U& expected, std::string& test_name = "");
  template<typename T, typename U> bool isnt(const T& got, const U& expected, std::string& test_name = "");
@@ -172,6 +174,7 @@ skip tells the TAP harness that you're skipping a number of tests for the given 
 If you pick the right test function, you'll usually get a good idea of what went wrong when it failed. But sometimes it doesn't work out that way. So here we have ways for you to write your own diagnostic messages which are safer than just print STDERR.
 
 #### diag
+
 ```
  diag(diagnostic_message...);
 ```
@@ -192,6 +195,7 @@ which would produce:
    #   Failed test 'There's a foo user'
    # Since there's no foo, check that /etc/bar is set up right.
 ```
+
 You might remember ok() or diag() with the mnemonic open() or die().
 
 **NOTE** The exact formatting of the diagnostic output is still changing, but it is guaranteed that whatever you throw at it it won't interfere with the test.
@@ -212,6 +216,7 @@ Handy for putting in notes which might be useful for debugging, but don't indica
 diag simply catenates its arguments to the error output, while note prints diagnostics to the TAP stream.
 
 #### set_output(); set_error()
+
 ```
  void set_output(std::ofstream& new_output);
  void set_error(std::ofstream& new_error);
@@ -235,8 +240,10 @@ So the exit codes are...
 If you fail more than 254 tests, it will be reported as 254.
 
 #### bail_out()
+
 ```
  int exit_status();
  void bail_out(const std::string& reason);
 ```
+
 **bail_out** terminates the current test program with exit code 255, indicating to the test harness that all subsequent testing should halt. Typically this is used to indicate that testing cannot continue at all.
