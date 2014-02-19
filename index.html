@@ -26,12 +26,16 @@ title: Main Page
   <ul>
     <li><a href="/producers.html" title="TAP Producers">TAP Producers</a> - Testing tools that generate TAP output</li>
     <li><a href="http://testanything.org/wiki/index.php/TAP_Consumers" title="TAP Consumers">TAP Consumers</a> - Test harnesses that read TAP</li>
-    <li><a href="http://testanything.org/wiki/index.php/TAP_Proposals" title="TAP Proposals">TAP Proposals</a> - What next?</li>
+<!-- TODO review needed - might be worth moving to github issues and involving individual content owners
+     <li><a href="http://testanything.org/wiki/index.php/TAP_Proposals" title="TAP Proposals">TAP Proposals</a> - What next?</li>
+-->
     <li><a href="/philosophy.html" title="TAP Philosophy">TAP Philosophy</a> - The Tao of TAP</li>
     <li><a href="/history.html" title="TAP History">TAP History</a> - The story of TAP</li>
+<!-- TODO review needed
     <li><a href="http://testanything.org/wiki/index.php/TAP_Critique" title="TAP Critique">TAP Critique</a> - Design infelicities</li>
     <li><a href="http://testanything.org/wiki/index.php/YAMLish" title="YAMLish">YAMLish</a> - TAP's embedded YAML dialect</li>
     <li><a href="http://testanything.org/wiki/index.php/Things_missing_from_TAP" title="Things missing from TAP">Things missing from TAP</a></li>
+-->
   </ul>
 
   <h2>Specifications</h2>
@@ -45,17 +49,21 @@ title: Main Page
     <li><a href="http://en.wikipedia.org/wiki/Test_Anything_Protocol" class="external text" title="http://en.wikipedia.org/wiki/Test_Anything_Protocol" rel="nofollow">Wikipedia article on TAP</a></li>
   </ul>
 
+<!-- TODO review needed
   <h2>Mailing Lists</h2>
   <ul>
     <li><a href="http://testanything.org/mailman/listinfo/tap-l" class="external text" title="http://testanything.org/mailman/listinfo/tap-l" rel="nofollow">TAP-L</a> - For discussion of the Test Anything Protocol</li>
     <li><a href="http://www.hexten.net/mailman/listinfo/tapx-dev" class="external text" title="http://www.hexten.net/mailman/listinfo/tapx-dev" rel="nofollow">TAPX-DEV</a> - For developers of <a href="http://testanything.org/wiki/index.php/TAP::Parser" title="TAP::Parser">TAP::Parser</a> and other interested parties. Perl specific.</li>
   </ul>
+-->
 
 
-  <h1>Updates</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% if site.posts.size > 0 %}
+    <h1>Updates</h1>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
