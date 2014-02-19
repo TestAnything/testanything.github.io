@@ -213,5 +213,4 @@ While it's not a working implementation, the Git project has starter code that s
 
 ### Non Proliferation
 
-TAP producer authors should be aware of (and hopefully sign) the [TAP Namespace Nonproliferation Treaty](http://testanything.org/wiki/index.php/TAP_Namespace_Nonproliferation_Treaty)
-
+TAP producer authors should be aware of (and hopefully sign) the [TAP Namespace Nonproliferation Treaty](/namespace-nonproliferation-treaty.html)
