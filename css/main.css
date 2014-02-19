@@ -54,6 +54,14 @@ ul li {
   margin-left: 1.55em;
 }
 
+div.highlight {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
