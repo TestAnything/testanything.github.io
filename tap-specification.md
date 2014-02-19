@@ -408,14 +408,15 @@ You can find documentation for this module with the perldoc command.
 ```
 
 You can also look for information at:
+
 -    AnnoCPAN: Annotated CPAN documentation
-[http://annocpan.org/dist/TAP](http://annocpan.org/dist/TAP)
+     [http://annocpan.org/dist/TAP](http://annocpan.org/dist/TAP)
 -    CPAN Ratings
-[http://cpanratings.perl.org/d/TAP](http://cpanratings.perl.org/d/TAP)
+     [http://cpanratings.perl.org/d/TAP](http://cpanratings.perl.org/d/TAP)
 -    RT: CPAN's request tracker
-[http://rt.cpan.org/NoAuth/Bugs.html?Dist=TAP](http://rt.cpan.org/NoAuth/Bugs.html?Dist=TAP)
+     [http://rt.cpan.org/NoAuth/Bugs.html?Dist=TAP](http://rt.cpan.org/NoAuth/Bugs.html?Dist=TAP)
 -    Search CPAN
-[http://search.cpan.org/dist/TAP](http://search.cpan.org/dist/TAP)
+     [http://search.cpan.org/dist/TAP](http://search.cpan.org/dist/TAP)
 
 ## AUTHORS
 
