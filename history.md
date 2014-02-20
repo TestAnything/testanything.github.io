@@ -114,9 +114,9 @@ Added TODO directive.
 ### Version 12 (Current version)
 Allowed header at end.
 
-Implemented in [Test::Harness](http://testanything.org/wiki/index.php/Test::Harness) 1.21.
+Implemented in [Test::Harness](http://search.cpan.org/~leont/Test-Harness-3.30/) 1.21.
 
 ### Version 13
 Understands TAP version syntax.
 
-Implemented in [TAP::Parser](http://web.archive.org/web/20120315113218/http://testanything.org/wiki/index.php/TAP::Parser) 0.52.
+Implemented in [TAP::Parser](http://search.cpan.org/~markwkm/Test-Parser-1.9/) 0.52.
