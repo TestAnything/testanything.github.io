@@ -62,6 +62,26 @@ div.highlight {
   margin-bottom: 10px;
 }
 
+.header {
+  clear: both;
+}
+
+.header ul, .header h1 {
+  float: left;
+}
+
+.header ul li {
+  list-style-type: none;
+}
+
+.header h1 {
+  line-height: 0;
+}
+
+.clear {
+  clear:both;
+}
+
 /*****************************************************************************/
 /*
 /* Home
