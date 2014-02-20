@@ -3,7 +3,7 @@ layout: default
 title: TAP Consumers
 ---
 
-## TAP Consumers
+# TAP Consumers
 
 Things that can take TAP as an input and do something useful with it.
 

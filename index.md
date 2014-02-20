@@ -3,7 +3,7 @@ layout: default
 title: Main Page
 ---
 
-# Test Anything Protocol</h1>
+# Test Anything Protocol
 
 TAP, the Test Anything Protocol, is a simple text-based interface between testing modules in a test harness. TAP started life as part of the test harness for Perl but now has implementations in C, C++, Python, PHP, Perl, Java, JavaScript, and others.
 
