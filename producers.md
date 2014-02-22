@@ -102,6 +102,17 @@ A Node.js test framework and harness toolkit that produces and consumes the TAP 
 
 -    [node-tap](https://github.com/isaacs/node-tap)
 
+### Mocha
+A Node.js and browser testing framework that has TAP 'reporter'.
+
+-    [Mocha](http://visionmedia.github.io/mocha/)
+-    [Mocha TAP reporter](http://visionmedia.github.io/mocha/#tap-reporter)
+
+### ESLint
+A JavaScript linting tool that runs on Node.js that has a TAP 'formatter'.
+
+-    [ESLint](https://github.com/eslint/eslint)
+
 ### qunit-tap
 Instead of [QUnit](http://docs.jquery.com/Qunit) producing output only in your browser, it can produce TAP.
 -    [qunit-tap](https://github.com/twada/qunit-tap) Github project page
