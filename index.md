@@ -19,7 +19,7 @@ Here's what a TAP test stream looks like:
 
 ## Testing with TAP
 
--    [Testing with TAP](/Testing_with_TAP) - How to run TAP based tests in your language of choice
+-    [Testing with TAP](/testing-with-tap) - How to run TAP based tests in your language of choice
 
 
 ## TAP Development
