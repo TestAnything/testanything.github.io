@@ -386,12 +386,9 @@ Apache-Test's PHP writes TAP by default and includes the standalone test-more.ph
 ### Java
 tap4j provides objects to create TestSets, TestResults, BailOuts and, using a TapProducer, dump it into a java.io.File or String. It also provides TapConsumer's to load TapStreams from Strings or java.io.File's. YAMLish is interpreted and made available as diagnostics of each TestResult object of a TestSet.
 
-```
-   http://www.tap4j.org
-   http://www.tap4j.org/book/ - Using TAP with Java Book
-   http://www.tap4j.org/xref-test/org/tap4j/consumer/TestTap13YamlConsumer2.html - Example of a TapConsumer in Java with tap4j + YAMLish
-   http://www.tap4j.org/xref-test/org/tap4j/producer/TestTap13YamlProducer.html - Example of a TapProducer in Java with tap4j + YAMLish
-```
+-    [tap4j](http://www.tap4j.org)
+-    [Example of a TapConsumer in Java with tap4j + YAMLish](http://tap4j.org/tap4j/tapconsumer.html)
+-    [Example of a TapProducer in Java with tap4j + YAMLish](http://tap4j.org/tap4j/tapproducer.html)
 
 tap4j is licensed under MIT License.
 
