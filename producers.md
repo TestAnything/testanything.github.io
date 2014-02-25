@@ -102,6 +102,11 @@ A Node.js test framework and harness toolkit that produces and consumes the TAP 
 
 -    [node-tap](https://github.com/isaacs/node-tap)
 
+### tape
+tap-producing test harness for node and browsers.
+
+-    [tape](https://github.com/substack/tape)
+
 ### Mocha
 A Node.js and browser testing framework that has TAP 'reporter'.
 
