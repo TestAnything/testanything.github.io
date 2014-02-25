@@ -131,6 +131,20 @@ Similar to test.Simple above, test.Perlish provides test::Simple style testing b
 
 [Test.Simple](http://openjsan.org/doc/t/th/theory/Test/Simple/)
 
+## Lua
+
+### lua-TestMore
+
+A port of the Perl Test::More framework to Lua.
+
+-    [lua-TestMore](http://fperrad.github.io/lua-TestMore/)
+
+### Busted
+
+A unit testing framework for Lua.
+
+-    [Busted](http://olivinelabs.com/busted/)
+
 ## OCaml
 
 ### testSimple
