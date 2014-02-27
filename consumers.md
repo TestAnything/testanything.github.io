@@ -23,6 +23,11 @@ Things that can take TAP as an input and do something useful with it.
 ## JavaScript
 
 -    [node-tap](https://github.com/isaacs/node-tap)
+-    [TAP parser](https://www.npmjs.org/package/tap-parser)
+
+## C
+
+-    [C Tap Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)
 
 ## Others
 
