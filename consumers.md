@@ -24,6 +24,10 @@ Things that can take TAP as an input and do something useful with it.
 
 -    [node-tap](https://github.com/isaacs/node-tap)
 
+## Others
+
+-    [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin)
+
 ## Universal desirable behaviors
 
 -    These are behaviors desired in all TAP parsers.
