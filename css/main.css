@@ -36,18 +36,17 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 h1 {
-  font-size: 1.4em;
-  line-height: 3em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 2em;
 }
 
 h3 {
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 ul li {
@@ -60,6 +59,10 @@ div.highlight {
   padding: 1em;
   border-radius: 3px;
   margin-bottom: 10px;
+}
+
+div.highlight pre {
+  overflow: auto
 }
 
 .header {
