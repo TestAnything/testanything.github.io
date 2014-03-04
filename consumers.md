@@ -15,6 +15,7 @@ Things that can take TAP as an input and do something useful with it.
 -    [Smolder project background](http://sourceforge.net/projects/smolder/)
 -    [TapTinder](http://dev.taptinder.org/wiki/TapTinder)
 -    [metatap](http://search.cpan.org/search?query=metatap)
+-    [Tapper test infrastructure](http://tapper-testing.org)
 
 ## Java
 
