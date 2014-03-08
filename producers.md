@@ -218,6 +218,11 @@ Apache-test's PHP writes TAP by default and includes the standalone [test-more.p
 test-more-php provides the test::Simple & test::More APIs for PHP
 -    [test-more-php](http://code.google.com/p/test-more-php/)
 
+### SnapTest
+
+PHP5 Unit Testing Framework
+- [SnapTest](http://www.snaptest.net/)
+
 ## PL/SQL
 
 -    [TAP-compliant testing in PL/SQL](http://use.perl.org/~jdavidb/journal/30641) (needs work)
