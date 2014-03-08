@@ -246,6 +246,10 @@ PHP5 Unit Testing Framework
 While it's not a working implementation, the Git project has starter code that supplies the basic functionality of ok/not Ok and some skipping functionality, even with colored output! Look in t/test-lib.sh and other test files for example code and use.
 -    [Latest Git Snapshot](http://www.codemonkey.org.uk/projects/git-snapshots/git/git-latest.tar.gz)
 
+### bash-test-utils
+
+-    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
+
 ### Non Proliferation
 
 TAP producer authors should be aware of (and hopefully sign) the [TAP Namespace Nonproliferation Treaty](/namespace-nonproliferation-treaty.html)
