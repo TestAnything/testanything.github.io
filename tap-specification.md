@@ -6,7 +6,7 @@ title: TAP specification
 # TAP specification
 ## NAME
 
-TAP - The Test Anything Protocal
+TAP - The Test Anything Protocol
 
 ## SYNOPSIS
 
