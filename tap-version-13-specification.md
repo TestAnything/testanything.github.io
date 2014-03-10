@@ -5,7 +5,7 @@ title: TAP 13 specification
 
 # NAME
 
-TAP13 - The Test Anything Protocal v13
+TAP13 - The Test Anything Protocol v13
 
 ## SYNOPSIS
 
