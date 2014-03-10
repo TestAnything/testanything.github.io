@@ -145,6 +145,13 @@ A unit testing framework for Lua.
 
 -    [Busted](http://olivinelabs.com/busted/)
 
+## MATLAB
+
+### The MATLAB Unit Test Framework
+
+-    [matlab.unittest](http://www.mathworks.com/help/matlab/matlab-unit-test-framework.html)
+     -    [TAPPlugin](http://www.mathworks.com/help/matlab/ref/matlab.unittest.plugins.tapplugin-class.html)    
+
 ## OCaml
 
 ### testSimple
