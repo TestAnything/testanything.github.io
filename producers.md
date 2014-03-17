@@ -190,6 +190,12 @@ Also Object Pascal, Delphi, FPC (Free Pascal Compiler), etc.:
 
 -    [PyTAP git repository](http://git.codesimply.com/?p=PyTAP.git;a=summary)
 
+### tappy
+
+tappy produces TAP output for any test cases using Python's standard `unittest` library.
+
+-    [tappy at Read the Docs](http://tappy.readthedocs.org/en/latest/)
+
 ## Ruby
 
 ### Bacon
