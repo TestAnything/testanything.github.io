@@ -45,6 +45,7 @@ TODO review needed
 
 -    [TAP specification](/tap-specification.html)
 -    [TAP version 13 specification](/tap-version-13-specification.html)
+-    [TAP-Y/J Specification](https://github.com/rubyworks/tapout/wiki/TAP-Y-J-Specification)
 
 ## External Resources
 
