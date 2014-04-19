@@ -35,6 +35,8 @@ Libtap++ is a mostly-complete port of test::More to C++. Its main advantage over
 -    [Documentation of libtap++](http://testanything.org/wiki/index.php/Testing_with_C%2B%2B#Testing_using_libtap.2B.2B)
 -    [Download libtap++](http://github.com/downloads/Leont/libperl--/libtap++-0.02.tar.bz2)
 
+A fork of libtap++ that doesn't require a build time dependency to Boost is also available [here](https://github.com/cbab/libtappp).
+
 ### MyTAP (for MySQL)
 MyTAP is a TAP producer for C. It is the unit testing framework used inside the MySQL Server
 
