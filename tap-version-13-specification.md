@@ -225,7 +225,8 @@ TAP13's YAML blocks are intended to replace diagnostics for most purposes but TA
 Any output that is not a version, a plan, a test line, a YAML block, a diagnostic or a bail out is incorrect. How a harness handles the incorrect line is undefined.
 Test::Harness silently ignores incorrect lines, but will become more stringent in the future.
 TAP::Harness reports TAP syntax errors at the end of a test run.
-[edit]EXAMPLES
+
+## EXAMPLES
 
 All names, places, and events depicted in any example are wholly fictitious and bear no resemblance to, connection with, or relation to any real entity. Any such similarity is purely coincidental, unintentional, and unintended.
 
