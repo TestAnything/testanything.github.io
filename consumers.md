@@ -33,6 +33,7 @@ Things that can take TAP as an input and do something useful with it.
 ## Others
 
 -    [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin)
+-    [Desktop notifications](https://github.com/ryandoyle/shouldertap)
 
 ## Universal desirable behaviors
 
