@@ -22,6 +22,8 @@ Systems which output TAP.
 ### C TAP Harness
 Russ Alberry has a C TAP library available [here](http://www.eyrie.org/~eagle/software/c-tap-harness/).
 
+### [Google Test](https://code.google.com/p/googletest/) - Google C++ Testing Framework
+
 ### LibTap
 -    [Original version (unmaintained)](http://jc.ngo.org.uk/trac-bin/trac.cgi/wiki/LibTap)
 -    [Maintenance version by Shlomi Fish](http://www.shlomifish.org/open-source/projects/libtap/)
@@ -108,6 +110,11 @@ A Node.js test framework and harness toolkit that produces and consumes the TAP 
 tap-producing test harness for node and browsers.
 
 -    [tape](https://github.com/substack/tape)
+
+### testling
+Unit tests in all the browsers
+
+- [testling](https://github.com/substack/testling)
 
 ### Mocha
 A Node.js and browser testing framework that has TAP 'reporter'.
@@ -264,6 +271,31 @@ While it's not a working implementation, the Git project has starter code that s
 ### bash-test-utils
 
 -    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
+
+## Test tools
+
+### Kyua
+Testing framework for infrastructure software.
+
+- [Kyua](https://github.com/jmmv/kyua)
+
+### smtpscript
+Tool to write SMTP scenarios and easily implement regression tests for SMTP server-side implementations.
+
+- [smtpscript](https://github.com/OpenSMTPD/smtpscript)
+
+### Tapper
+Test infrastructure.
+
+- [Tapper](http://tapper.github.io/Tapper/)
+
+## Web services
+
+### Testling CI
+Hosted service that runs your test suite in many different browsers every time
+you push to GitHub. It can run any test suite so long as it writes TAP to the browser console.
+
+- [Testling](https://ci.testling.com/guide/local_tests)
 
 ### Non Proliferation
 
