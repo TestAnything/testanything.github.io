@@ -289,6 +289,11 @@ Test infrastructure.
 
 - [Tapper](http://tapper.github.io/Tapper/)
 
+### Autotest
+Autotest is a framework for fully automated testing.
+
+- [autotest](http://autotest.github.io/)
+
 ## Web services
 
 ### Testling CI
