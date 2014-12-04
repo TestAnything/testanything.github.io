@@ -22,6 +22,8 @@ Systems which output TAP.
 ### C TAP Harness
 Russ Alberry has a C TAP library available [here](http://www.eyrie.org/~eagle/software/c-tap-harness/).
 
+### [Google Test](https://code.google.com/p/googletest/) - Google C++ Testing Framework
+
 ### LibTap
 -    [Original version (unmaintained)](http://jc.ngo.org.uk/trac-bin/trac.cgi/wiki/LibTap)
 -    [Maintenance version by Shlomi Fish](http://www.shlomifish.org/open-source/projects/libtap/)
@@ -41,6 +43,7 @@ A fork of libtap++ that doesn't require a build time dependency to Boost is also
 MyTAP is a TAP producer for C. It is the unit testing framework used inside the MySQL Server
 
 -    [Testing C and C++ using MyTAP](http://www.kindahl.net/mytap/doc/)
+-    [MyTAP](http://theory.github.io/mytap/)
 
 ### Yet Another libtap
 Another library for producing tap in C that compiles without much work on the dumbest (no special library requirements) of Unix-like and Windows development environments. It is feature-full (ok, is, isnt, like, unlike, todo, skip, dies_ok, cmp_ok, etc...), consistent (todo until endtodo, skip until endskip), extendable, and keeps track of file-line information (like test::More does). It also uses macros in nice ways so the user can leave out the message portion at the end of the test ok(1) and ok(1, "hello %s", "world") are both valid.
@@ -108,6 +111,11 @@ A Node.js test framework and harness toolkit that produces and consumes the TAP 
 tap-producing test harness for node and browsers.
 
 -    [tape](https://github.com/substack/tape)
+
+### testling
+Unit tests in all the browsers
+
+- [testling](https://github.com/substack/testling)
 
 ### Mocha
 A Node.js and browser testing framework that has TAP 'reporter'.
@@ -264,6 +272,48 @@ While it's not a working implementation, the Git project has starter code that s
 ### bash-test-utils
 
 -    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
+
+## Test and developer tools
+
+### Automake
+Programming tool that reads data about a project and outputs
+a pattern for a portable makefile which a configure script
+can fill for use by the make program, used in compiling software.
+
+-   [automake](http://www.gnu.org/software/automake/manual/html_node/Using-the-TAP-test-protocol.html#Using-the-TAP-test-protocol)
+
+### Hudson
+Extensible Continuous Integration Server.
+
+-   [Hudson](http://hudson-ci.org/)
+
+### Jenkins
+Extendable open source continuous integration server.
+
+-	[Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin)
+
+### Kyua
+Testing framework for infrastructure software.
+
+-   [Kyua](https://github.com/jmmv/kyua)
+
+### Tapper
+Test infrastructure.
+
+-   [Tapper](http://tapper.github.io/Tapper/)
+
+### Autotest
+Autotest is a framework for fully automated testing.
+
+-   [autotest](http://autotest.github.io/)
+
+## Web services
+
+### Testling CI
+Hosted service that runs your test suite in many different browsers every time
+you push to GitHub. It can run any test suite so long as it writes TAP to the browser console.
+
+-   [Testling](https://ci.testling.com/guide/local_tests)
 
 ### Non Proliferation
 
