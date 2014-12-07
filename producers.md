@@ -273,6 +273,12 @@ While it's not a working implementation, the Git project has starter code that s
 
 -    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
 
+## DB2 SQL PL
+
+### [db2unit](https://angoca.github.io/db2unit/) 
+
+- This is a unit testing framework for SQL PL routines that runs in IBM [DB2](www.ibm.com/software/data/db2/express-c/download.html) LUW. This framework produces [TAP v13 output](https://github.com/angoca/db2unit/wiki/TAP-report).
+
 ## Test and developer tools
 
 ### Automake
