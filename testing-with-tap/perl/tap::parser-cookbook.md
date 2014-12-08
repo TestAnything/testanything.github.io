@@ -41,16 +41,25 @@ my @files = qw[
                /usr/lib/cgi-bin/test_cases/003.3.pl
                ];
 
+my $aggregate = TAP::Parser::Aggregator->new;
+
 foreach my $file (@files) {
   my $parser = TAP::Parser->new( { source => $file } );
   while ( my $result = $parser->next ) {
-    print $out_file "$file results: $result->as_string\n";
+    printf $out_file "$file results: %s\n", $result->as_string;
   }
-  my $aggregate = TAP::Parser::Aggregator->new;
-  $aggregate->add( 'testcases', $parser );
-  printf $out_file "\n\tPassed: %s\n\tFailed: %s\n", scalar $aggregate->passed, scalar $aggregate->failed;
+  printf $out_file "\nPlanned: %s\nPassed: %s\nFailed: %s\n", 
+    $parser->tests_planned, scalar $parser->passed, scalar $parser->failed;
+
+  $aggregate->add($file, $parser);
 }
+
+printf $out_file "\nTotal: %s\nPlanned: %s\nPassed: %s\nFailed: %s\n", 
+    $aggregate->total, scalar $aggregate->planned, scalar $aggregate->passed, scalar $aggregate->failed;
+
+close $out_file;
 ```
 
 It is pretty straightforward, or at least I hope so. What it does is create an out file which will be the place where the output from TAP shows up. Then I create an array of files to run, these are my tests. As you can see from the suffixes, some are shell code, some are perl - there are even some Expect scripts as well but they are not listed here. Instead the Expect scripts get called directly from the perl or shell scripts.
-In the foreach loop I run each test and then create a new TAP::Parser::Aggregator object to let me know the totals of tests that passed and failed.
+I create a TAP::Parser::Aggregator object which will sum up the statistics for all tests.
+In the foreach loop I create a new TAP::Parser object to run each test. The results are added to the TAP::Parser::Aggregator object to let me know the totals of all tests that planned, passed and failed.
