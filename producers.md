@@ -141,6 +141,12 @@ Similar to test.Simple above, test.Perlish provides test::Simple style testing b
 
 [Test.Simple](http://openjsan.org/doc/t/th/theory/Test/Simple/)
 
+### BusterJS
+A JavaScript testing toolkit for both Node.js and browsers. Comes with a TAP reporter.
+
+- [BusterJS](http://busterjs.org)
+- [BusterJS reporters](http://docs.busterjs.org/en/latest/overview/#reporters)
+
 ## Lua
 
 ### lua-TestMore
