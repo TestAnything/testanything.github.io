@@ -29,6 +29,7 @@ Things that can take TAP as an input and do something useful with it.
 ## C
 
 -    [C Tap Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)
+-    [YACC parser](https://github.com/ligurio/tap-parser)
 
 ## Others
 
