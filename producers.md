@@ -200,6 +200,12 @@ Also Object Pascal, Delphi, FPC (Free Pascal Compiler), etc.:
      -    [Introducing pgTAP](http://www.justatheory.com/computers/databases/postgresql/introducing_pgtap.html)
      -    [Conference Presentations](http://www.slideshare.net/search/slideshow?searchfrom=header&q=pgtap)
 
+## Prolog
+
+### library(tap)
+
+-    [library(tap)](http://www.swi-prolog.org/pack/list?p=tap) - written for SWI-Prolog, but may work with other Prologs
+
 ## Python
 
 ### PyTAP
