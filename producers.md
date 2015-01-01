@@ -74,6 +74,12 @@ It is asdf-installable and also available via [Quicklisp](http://www.quicklisp.o
 
 -    [Forth/TAP](http://www.hexten.net/wiki/index.php/Forth_TAP)
 
+## Go
+
+### tap.go
+
+-    [tap.go](https://github.com/mndrix/tap.go) - also generates TAP output for "testing/quick.Check" tests
+
 ## Haskell
 
 ### TAP Module
