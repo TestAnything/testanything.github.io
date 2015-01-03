@@ -74,6 +74,12 @@ It is asdf-installable and also available via [Quicklisp](http://www.quicklisp.o
 
 -    [Forth/TAP](http://www.hexten.net/wiki/index.php/Forth_TAP)
 
+## Go
+
+### tap.go
+
+-    [tap.go](https://github.com/mndrix/tap.go) - also generates TAP output for "testing/quick.Check" tests
+
 ## Haskell
 
 ### TAP Module
@@ -199,6 +205,12 @@ Also Object Pascal, Delphi, FPC (Free Pascal Compiler), etc.:
 -    [pgTAP](http://pgtap.org/)
      -    [Introducing pgTAP](http://www.justatheory.com/computers/databases/postgresql/introducing_pgtap.html)
      -    [Conference Presentations](http://www.slideshare.net/search/slideshow?searchfrom=header&q=pgtap)
+
+## Prolog
+
+### library(tap)
+
+-    [library(tap)](http://www.swi-prolog.org/pack/list?p=tap) - written for SWI-Prolog, but may work with other Prologs
 
 ## Python
 
