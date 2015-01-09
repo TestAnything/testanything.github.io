@@ -17,6 +17,10 @@ Things that can take TAP as an input and do something useful with it.
 -    [metatap](http://search.cpan.org/search?query=metatap)
 -    [Tapper test infrastructure](http://tapper-testing.org)
 
+## Python
+
+-    [tappy](https://pypi.python.org/pypi/tap.py)
+
 ## Java
 
 -    [tap4j](http://sourceforge.net/projects/tap4j/)
