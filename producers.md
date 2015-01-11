@@ -320,6 +320,11 @@ Test infrastructure.
 
 -   [Tapper](http://tapper.github.io/Tapper/)
 
+### Xperior
+Testing tool.
+
+- [Xperior](https://github.com/Xyratex/xperior)
+
 ### Autotest
 Autotest is a framework for fully automated testing.
 
