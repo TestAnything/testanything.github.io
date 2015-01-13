@@ -214,6 +214,10 @@ Also Object Pascal, Delphi, FPC (Free Pascal Compiler), etc.:
 
 ## Python
 
+### Bayeux
+
+-    [Bayeux](https://pypi.python.org/pypi/bayeux/) — module for generating fully decorated TAP from Python (based on [yamlish](https://pypi.python.org/pypi/yamlish)), also included is a module making unittest producing TAP stream instead of the normal output.
+
 ### PyTAP
 
 -    [PyTAP git repository](http://git.codesimply.com/?p=PyTAP.git;a=summary)
