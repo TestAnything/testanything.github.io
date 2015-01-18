@@ -49,6 +49,7 @@ TODO review needed
 ## External Resources
 
 -    [Wikipedia article on TAP](http://en.wikipedia.org/wiki/Test_Anything_Protocol)
+-    [The TAP subreddit](http://www.reddit.com/r/testanythingprotocol)
 
 {% comment %}
  TODO review needed
