@@ -17,48 +17,48 @@ This document describes version 13 of TAP. Go to TAP to read about previous vers
 TAP13's general format is:
 
 ```
-   TAP version 13
-   1..N
-   ok 1 Description # Directive
-   # Diagnostic
-     ---
-     message: 'Failure message'
-     severity: fail
-     data:
-       got:
-         - 1
-         - 3
-         - 2
-       expect:
-         - 1
-         - 2
-         - 3
-     ...
-   ok 47 Description
-   ok 48 Description
-   more tests....
+TAP version 13
+1..N
+ok 1 Description # Directive
+# Diagnostic
+  ---
+  message: 'Failure message'
+  severity: fail
+  data:
+    got:
+      - 1
+      - 3
+      - 2
+    expect:
+      - 1
+      - 2
+      - 3
+  ...
+ok 47 Description
+ok 48 Description
+more tests....
 ```
 
 For example, a test file's output might look like:
 
 ```
-   TAP version 13
-   1..4
-   ok 1 - Input file opened
-   not ok 2 - First line of the input valid
-     ---
-     message: 'First line invalid'
-     severity: fail
-     data:
-       got: 'Flirble'
-       expect: 'Fnible'
-     ...
-   ok 3 - Read the rest of the file
-   not ok 4 - Summarized correctly # TODO Not written yet
-     ---
-     message: "Can't make summary yet"
-     severity: todo
-     ...
+TAP version 13
+1..4
+ok 1 - Input file opened
+not ok 2 - First line of the input valid
+  ---
+  message: 'First line invalid'
+  severity: fail
+  data:
+    got: 'Flirble'
+    expect: 'Fnible'
+  ...
+ok 3 - Read the rest of the file
+not ok 4 - Summarized correctly # TODO Not written yet
+  ---
+  message: "Can't make summary yet"
+  severity: todo
+  ...
 ```
 
 ## HARNESS BEHAVIOR
@@ -72,7 +72,7 @@ A harness must only read TAP output from standard output and not from standard e
 To indicate that this is TAP13 the first line must be
 
 ```
-    TAP version 13
+TAP version 13
 ```
 
 ### The plan
@@ -80,7 +80,7 @@ The plan tells how many tests will be run, or how many tests have run. It's a ch
 The plan is usually the first line of TAP output (although in future there may be a version line before it) and it specifies how many test points are to follow. For example,
 
 ```
-    1..10
+1..10
 ```
 
 means you plan on running 10 tests. This is a safeguard in case your test file dies silently in the middle of its run. The plan is optional but if there is a plan before the test points it must be the first non-diagnostic line output by the test file.
@@ -100,26 +100,26 @@ Note that unlike the Directives below, ok and not ok are case-sensitive.
 TAP expects the ok or not ok to be followed by a test point number. If there is no number the harness must maintain its own counter until the script supplies test numbers again. So the following test output
 
 ```
-   1..6
-   not ok
-   ok
-   not ok
-   ok
-   ok
+1..6
+not ok
+ok
+not ok
+ok
+ok
 ```
 
 has five tests. The sixth is missing. Test::Harness will generate
 
 ```
-   FAILED tests 1, 3, 6
-   Failed 3/6 tests, 50.00% okay
+FAILED tests 1, 3, 6
+Failed 3/6 tests, 50.00% okay
 ```
 
 -    Description
 Any text after the test number but before a # is the description of the test point.
 
 ```
-    ok 42 this is the description of the test
+ok 42 this is the description of the test
 ```
 
 Descriptions should not begin with a digit so that they are not confused with the test point number.
@@ -140,37 +140,37 @@ The YAML document is indented to make it visually distinct from the surrounding 
 For example:
 
 ```
-    not ok 3 Resolve address
-     ---
-     message: "Failed with error 'hostname peebles.example.com not found'"
-     severity: fail
-     data:
-       got:
-         hostname: 'peebles.example.com'
-         address: ~
-       expected:
-         hostname: 'peebles.example.com'
-         address: '85.193.201.85'
-     ...
+not ok 3 Resolve address
+ ---
+ message: "Failed with error 'hostname peebles.example.com not found'"
+ severity: fail
+ data:
+   got:
+     hostname: 'peebles.example.com'
+     address: ~
+   expected:
+     hostname: 'peebles.example.com'
+     address: '85.193.201.85'
+ ...
 ```
 
 For a harness written in Perl the corresponding data structure would look like this:
 
 ```
-    $diagnostic = {
-       'message'  => "Failed with error 'hostname peebles.example.com not found'",
-       'severity' => 'fail',
-       'data' => {
-           'got' => {
-               'hostname' => 'peebles.example.com',
-               'address'  => undef,
-           },
-           'expected' => {
-               'hostname' => 'peebles.example.com',
-               'address'  => '85.193.201.85',
-           }
-       },
-   };
+$diagnostic = {
+    'message'  => "Failed with error 'hostname peebles.example.com not found'",
+    'severity' => 'fail',
+    'data' => {
+        'got' => {
+            'hostname' => 'peebles.example.com',
+            'address'  => undef,
+        },
+        'expected' => {
+            'hostname' => 'peebles.example.com',
+            'address'  => '85.193.201.85',
+        }
+    },
+};
 ```
 
 Currently (2007/03/17) the format of the data structure represented by a YAML block has not been standardized. It is likely that whatever schema emerges will be able to capture the kind of forensic information about a test's execution seen in the example above.
@@ -183,7 +183,7 @@ Directives are special notes that follow a # on the test line. Only two are curr
 If the directive starts with # TODO, the test is counted as a todo test, and the text after TODO is the explanation.
 
 ```
-    not ok 13 # TODO bend space and time
+not ok 13 # TODO bend space and time
 ```
 
 Note that if the TODO has an explanation it must be separated from TODO by a space.
@@ -193,13 +193,13 @@ These tests represent a feature to be implemented or a bug to be fixed and act a
 If the directive starts with # SKIP, the test is counted as having been skipped. If the whole test file succeeds, the count of skipped tests is included in the generated output. The harness should report the text after # SKIP\S*\s+ as a reason for skipping.
 
 ```
-    ok 23 # skip Insufficient flogiston pressure.
+ok 23 # skip Insufficient flogiston pressure.
 ```
 
 Similarly, one can include an explanation in a plan line, emitted if the test file is skipped completely:
 
 ```
-    1..0 # Skipped: WWW::Mechanize not installed
+1..0 # Skipped: WWW::Mechanize not installed
 ```
 
 ## OTHER LINES
@@ -208,13 +208,13 @@ Similarly, one can include an explanation in a plan line, emitted if the test fi
 As an emergency measure a test script can decide that further tests are useless (e.g. missing dependencies) and testing should stop immediately. In that case the test script prints the magic words
 
 ```
-    Bail out!
+Bail out!
 ```
 
 to standard output. Any message after these words must be displayed by the interpreter as the reason why testing must be stopped, as in
 
 ```
-    Bail out! MySQL is not running.
+Bail out! MySQL is not running.
 ```
 
 ### Diagnostics
@@ -234,118 +234,118 @@ All names, places, and events depicted in any example are wholly fictitious and 
 The following TAP listing declares that six tests follow as well as provides handy feedback as to what the test is about to do. All six tests pass.
 
 ```
-   TAP version 13
-   1..6
-   #
-   # Create a new Board and Tile, then place
-   # the Tile onto the board.
-   #
-   ok 1 - The object isa Board
-   ok 2 - Board size is zero
-   ok 3 - The object isa Tile
-   ok 4 - Get possible places to put the Tile
-   ok 5 - Placing the tile produces no error
-   ok 6 - Board size is 1
+TAP version 13
+1..6
+#
+# Create a new Board and Tile, then place
+# the Tile onto the board.
+#
+ok 1 - The object isa Board
+ok 2 - Board size is zero
+ok 3 - The object isa Tile
+ok 4 - Get possible places to put the Tile
+ok 5 - Placing the tile produces no error
+ok 6 - Board size is 1
 ```
 
 ### Unknown amount and failures
 This hypothetical test program ensures that a handful of servers are online and network-accessible. Because it retrieves the hypothetical servers from a database, it doesn't know exactly how many servers it will need to ping. Thus, the test count is declared at the bottom after all the test points have run. Also, two of the tests fail. The YAML block following each failure gives additional information about the failure that may be displayed by the harness.
 
 ```
-    TAP version 13
-   ok 1 - retrieving servers from the database
-   # need to ping 6 servers
-   ok 2 - pinged diamond
-   ok 3 - pinged ruby
-   not ok 4 - pinged saphire
-     ---
-     message: 'hostname "saphire" unknown'
-     severity: fail
-     ...
-   ok 5 - pinged onyx
-   not ok 6 - pinged quartz
-     ---
-     message: 'timeout'
-     severity: fail
-     ...
-   ok 7 - pinged gold
-   1..7
+TAP version 13
+ok 1 - retrieving servers from the database
+# need to ping 6 servers
+ok 2 - pinged diamond
+ok 3 - pinged ruby
+not ok 4 - pinged saphire
+  ---
+  message: 'hostname "saphire" unknown'
+  severity: fail
+  ...
+ok 5 - pinged onyx
+not ok 6 - pinged quartz
+  ---
+  message: 'timeout'
+  severity: fail
+  ...
+ok 7 - pinged gold
+1..7
 ```
 
 ### Giving up
 This listing reports that a pile of tests are going to be run. However, the first test fails, reportedly because a connection to the database could not be established. The program decided that continuing was pointless and exited.
 
 ```
-   TAP version 13
-   1..573
-   not ok 1 - database handle
-   Bail out! Couldn't connect to database.
+TAP version 13
+1..573
+not ok 1 - database handle
+Bail out! Couldn't connect to database.
 ```
 
 ### Skipping a few
 The following listing plans on running 5 tests. However, our program decided to not run tests 2 thru 5 at all. To properly report this, the tests are marked as being skipped.
 
 ```
-   TAP version 13
-   1..5
-   ok 1 - approved operating system
-   # $^0 is solaris
-   ok 2 - # SKIP no /sys directory
-   ok 3 - # SKIP no /sys directory
-   ok 4 - # SKIP no /sys directory
-   ok 5 - # SKIP no /sys directory
+TAP version 13
+1..5
+ok 1 - approved operating system
+# $^0 is solaris
+ok 2 - # SKIP no /sys directory
+ok 3 - # SKIP no /sys directory
+ok 4 - # SKIP no /sys directory
+ok 5 - # SKIP no /sys directory
 ```
 
 ### Skipping everything
 This listing shows that the entire listing is a skip. No tests were run.
 
 ```
-   TAP version 13
-   1..0 # skip because English-to-French translator isn't installed
+TAP version 13
+1..0 # skip because English-to-French translator isn't installed
 ```
 
 ## Got spare tuits?
 The following example reports that four tests are run and the last two tests failed. However, because the failing tests are marked as things to do later, they are considered successes. Thus, a harness should report this entire listing as a success.
 
 ```
-   TAP version 13
-   1..4
-   ok 1 - Creating test program
-   ok 2 - Test program runs, no error
-   not ok 3 - infinite loop # TODO halting problem unsolved
-   not ok 4 - infinite loop 2 # TODO halting problem unsolved
+TAP version 13
+1..4
+ok 1 - Creating test program
+ok 2 - Test program runs, no error
+not ok 3 - infinite loop # TODO halting problem unsolved
+not ok 4 - infinite loop 2 # TODO halting problem unsolved
 ```
 
 ## Creative liberties
 This listing shows an alternate output where the test numbers aren't provided. The test also reports the state of a ficticious board game as a YAML block. Finally, the test count is reported at the end.
 
 ```
-   TAP version 13
-   ok - created Board
-   ok
-   ok
-   ok
-   ok
-   ok
-   ok
-   ok
-     ---
-     message: "Board layout"
-     severity: comment
-     dump:
-        board:
-          - '      16G         05C        '
-          - '      G N C       C C G      '
-          - '        G           C  +     '
-          - '10C   01G         03C        '
-          - 'R N G G A G       C C C      '
-          - '  R     G           C  +     '
-          - '      01G   17C   00C        '
-          - '      G A G G N R R N R      '
-          - '        G     R     G        '
-     ...
-   ok - board has 7 tiles + starter tile
-   1..9
+TAP version 13
+ok - created Board
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+  ---
+  message: "Board layout"
+  severity: comment
+  dump:
+     board:
+       - '      16G         05C        '
+       - '      G N C       C C G      '
+       - '        G           C  +     '
+       - '10C   01G         03C        '
+       - 'R N G G A G       C C C      '
+       - '  R     G           C  +     '
+       - '      01G   17C   00C        '
+       - '      G A G G N R R N R      '
+       - '        G     R     G        '
+  ...
+ok - board has 7 tiles + starter tile
+1..9
 ```
 
 ## BUGS
