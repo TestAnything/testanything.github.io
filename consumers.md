@@ -39,6 +39,7 @@ Things that can take TAP as an input and do something useful with it.
 
 -    [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin)
 -    [Desktop notifications](https://github.com/ryandoyle/shouldertap)
+-    Automake 1.13+ can [run TAP tests](https://www.gnu.org/software/automake/manual/html_node/Using-the-TAP-test-protocol.html#Using-the-TAP-test-protocol) for `make check`, via `tap-driver.sh`.
 
 ## Universal desirable behaviors
 
