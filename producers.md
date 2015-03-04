@@ -22,6 +22,9 @@ Systems which output TAP.
 ### C TAP Harness
 Russ Alberry has a C TAP library available [here](http://www.eyrie.org/~eagle/software/c-tap-harness/).
 
+### [GLib's GTest](https://developer.gnome.org/glib/stable/glib-Testing.html)
+Test executables that use `g_test_init()` present their results as TAP if run with the `--tap` option.
+
 ### [Google Test](https://code.google.com/p/googletest/) - Google C++ Testing Framework
 
 ### LibTap
