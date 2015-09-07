@@ -49,11 +49,13 @@ TODO review needed
 
 -    [TAP specification](/tap-specification.html)
 -    [TAP version 13 specification](/tap-version-13-specification.html)
+-    [TAP version 14 specification](/tap-version-14-specification.html)
 
 ## External Resources
 
--    [Wikipedia article on TAP](http://en.wikipedia.org/wiki/Test_Anything_Protocol)
--    [The TAP subreddit](http://www.reddit.com/r/testanythingprotocol)
+- [Wikipedia article on TAP](http://en.wikipedia.org/wiki/Test_Anything_Protocol)
+- [The TAP subreddit](http://www.reddit.com/r/testanythingprotocol)
+- [The TAP GitHub Group](https://github.com/TestAnything)
 
 {% comment %}
  TODO review needed
