@@ -53,6 +53,11 @@ ul li {
   margin-left: 1.55em;
 }
 
+blockquote {
+  background-color: #e9e9e9;
+  padding: 0.15em 2em;
+}
+
 div.highlight {
   background-color: #eee;
   border: 1px solid #ccc;
