@@ -298,6 +298,12 @@ While it's not a working implementation, the Git project has starter code that s
 
 -    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
 
+## TypeScript
+
+### TypeSpec
+
+ -    [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) - TypeSpec is a BDD framework for TypeScript with a built-in TapReporter class for TAP compliant output.
+
 ## DB2 SQL PL
 
 ### [db2unit](https://angoca.github.io/db2unit/) 
