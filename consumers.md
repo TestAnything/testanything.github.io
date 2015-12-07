@@ -27,8 +27,9 @@ Things that can take TAP as an input and do something useful with it.
 
 ## JavaScript
 
--    [node-tap](https://github.com/isaacs/node-tap)
--    [TAP parser](https://www.npmjs.org/package/tap-parser)
+-    [node-tap](https://www.npmjs.com/package/tap)
+-    [TAP parser](https://www.npmjs.com/package/tap-parser)
+-    [tape](https://www.npmjs.com/package/tape)
 
 ## C
 
