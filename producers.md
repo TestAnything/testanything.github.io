@@ -11,7 +11,14 @@ Systems which output TAP.
 
 ## Ada
 
--    [Ahven](http://ahven.stronglytyped.org/) unit test library for Ada produces TAP 12 output.
+> Ada is a modern programming language designed for large,
+> long-lived applications – and embedded systems in particular –
+> where safety and security are essential.
+>
+> *From [Ada Information Clearinghouse](http://www.adaic.org/)*
+
+**[Ahven](http://ahven.stronglytyped.org/)** is a unit test library
+for Ada which produces TAP 12 output.
 
 ## Arc (Lisp Dialect)
 
