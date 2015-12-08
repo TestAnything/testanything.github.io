@@ -35,8 +35,9 @@ Languages:
 [Prolog](#prolog),
 [Python](#python),
 [Ruby](#ruby),
+[Shell](#shell),
 and
-[Shell](#shell).
+[Fish Shell](#fish-shell)
 
 <a id="ada"></a>
 ## Ada
@@ -349,6 +350,14 @@ PHP5 Unit Testing Framework
 
 ### Sharness
 -    [Sharness](https://github.com/mlafeldt/Sharness) - Shell-based Test Harness Library, derived from Git project (see below)
+
+<a id="fish-shell"></a>
+## Fish Shell
+
+### Fishtape
+
+-    [Fishtape](http://github.com/fisherman/fishtape) - TAP producer and test harness for fish
+
 
 ### Git Project
 While it's not a working implementation, the Git project has starter code that supplies the basic functionality of ok/not Ok and some skipping functionality, even with colored output! Look in t/test-lib.sh and other test files for example code and use.
