@@ -12,7 +12,6 @@ grouped by programming language.
 
 Languages:
 [Ada](#ada),
-[Arc](#arc),
 [C/C++](#c),
 [C#](#csharp),
 [Common Lisp](#common-lisp),
@@ -49,11 +48,6 @@ and
 
 **[Ahven](http://ahven.stronglytyped.org/)** is a unit test library
 for Ada which produces TAP 12 output.
-
-<a id="arc"></a>
-## Arc (Lisp Dialect)
-
--    arctap.arc - can be found in the [Anarki version of Arc](http://arcfn.com/2008/02/git-and-anarki-arc-repository-brief.html), and is used for its test suite, which also has some test scripts written in Perl and test::More.
 
 <a id="c"></a>
 ## C / C++
