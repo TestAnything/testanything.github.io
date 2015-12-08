@@ -10,14 +10,13 @@ title: Testing with TAP
 There are a number of test modules for Perl, ranging from very simple tests through to very complex tests.
 Here are some links to some of them; all of these use the Test Anything Protocol to report their successes or failures:
 
--    [Test::Simple](http://search.cpan.org/~mschwern/Test-Simple/lib/Test/Simple.pm)
--    [Test::More](http://search.cpan.org/~mschwern/Test-Simple/lib/Test/More.pm)
--    [Test::Exception](http://search.cpan.org/~adie/Test-Exception/lib/Test/Exception.pm)
+-    [Test::Simple](https://metacpan.org/pod/Test::Simple)
+-    [Test::More](https://metacpan.org/pod/Test::More)
+-    [Test::Exception](https://metacpan.org/pod/Test::Exception)
 
 ### A number of harnesses are available including:
 
--    [TAP::Harness](http://search.cpan.org/~andya/Test-Harness/lib/TAP/Harness.pm)
--    [Test::Harness](http://search.cpan.org/~andya/Test-Harness/lib/Test/Harness.pm)
+-    [TAP::Harness](https://metacpan.org/pod/TAP::Harness)
 
 [TAP::Parser Cookbook](/testing-with-tap/perl/tap::parser-cookbook.html) - Cooking with TAP
 
