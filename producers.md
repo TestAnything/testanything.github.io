@@ -109,7 +109,7 @@ structured test data to TAP output.
 
 **[testbild](http://www.cliki.net/testbild)** is a Common Lisp library
 designed to provide a common interface for Unit testing output.
-Currently it supports TAP version 12 and xUnit style output.
+Currently, it supports TAP version 12 and xUnit style output.
 It is available via [Quicklisp](http://www.quicklisp.org/).
 
 <a id="erlang"></a>
