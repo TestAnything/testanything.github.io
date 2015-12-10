@@ -119,9 +119,13 @@ It is available via [Quicklisp](http://www.quicklisp.org/).
 <a id="go"></a>
 ## Go
 
-### tap.go
+> Go is an open source programming language that makes it easy to build
+> simple, reliable, and efficient software.
+>
+> *From [golang.org](https://golang.org/)*
 
--    [tap.go](https://github.com/mndrix/tap.go) - also generates TAP output for "testing/quick.Check" tests
+**[tap.go](https://github.com/mndrix/tap.go)** is a basic TAP producer
+for `testing/quick.Check` tests.
 
 <a id="haskell"></a>
 ## Haskell
