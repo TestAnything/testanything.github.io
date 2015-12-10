@@ -110,11 +110,6 @@ It is asdf-installable and also available via [Quicklisp](http://www.quicklisp.o
 
 -   [etap](http://github.com/ngerakines/etap)
 
-<a id="limbo"></a>
-## Limbo (OS Inferno)
-
--    [inferno-contrib-tap](http://code.google.com/p/inferno-contrib-tap/)
-
 <a id="forth"></a>
 ## Forth
 
@@ -203,6 +198,19 @@ A JavaScript testing toolkit for both Node.js and browsers. Comes with a TAP rep
 
 - [BusterJS](http://busterjs.org)
 - [BusterJS reporters](http://docs.busterjs.org/en/latest/overview/#reporters)
+
+<a id="limbo"></a>
+## Limbo (OS Inferno)
+
+> Limbo is the application programming language for Inferno.
+> Syntactically similar to C, it has several features that make it simpler,
+> safer and yet more powerful and better suited to the development
+> of concurrent, distributed systems.
+>
+> *From [vita nuova](http://www.vitanuova.com/inferno/limbo.html)*
+
+**[inferno-contrib-tap](https://github.com/powerman/inferno-contrib-tap)**
+is a TAP producer that supports version 12.
 
 <a id="lua"></a>
 ## Lua
