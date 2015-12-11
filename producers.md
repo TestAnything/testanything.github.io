@@ -12,7 +12,8 @@ grouped by programming language.
 
 Languages:
 [Ada](#ada),
-[C/C++](#c),
+[C](#c),
+[C++](#cplusplus),
 [C#](#csharp),
 [Common Lisp](#common-lisp),
 [DB2 SQL PL](#db2sqlpl),
@@ -50,7 +51,7 @@ and
 for Ada which produces TAP 12 output.
 
 <a id="c"></a>
-## C / C++
+## C
 
 ### C TAP Harness
 Russ Alberry has a C TAP library available [here](http://www.eyrie.org/~eagle/software/c-tap-harness/).
@@ -58,22 +59,12 @@ Russ Alberry has a C TAP library available [here](http://www.eyrie.org/~eagle/so
 ### [GLib's GTest](https://developer.gnome.org/glib/stable/glib-Testing.html)
 Test executables that use `g_test_init()` present their results as TAP if run with the `--tap` option.
 
-### [Google Test](https://code.google.com/p/googletest/) - Google C++ Testing Framework
-
 ### LibTap
 -    [Original version (unmaintained)](http://jc.ngo.org.uk/trac-bin/trac.cgi/wiki/LibTap)
 -    [Maintenance version by Shlomi Fish](http://www.shlomifish.org/open-source/projects/libtap/)
 -    [Maintenance version by Rusty Russell as part of CCAN](http://ccan.ozlabs.org/info/tap.html)
 -    [Article about LibTap](http://use.perl.org/~nik/journal/22137)
 (This library appears to no longer be under active development. It also suffers from an non-POSIX thread implementation. If you remove the thread ifdefs from tap.c it does compile and run however.)
-
-### libtap++
-Libtap++ is a mostly-complete port of test::More to C++. Its main advantage over libtap is that it provides polymorphic is and isnt functions.
-
--    [Documentation of libtap++](http://testanything.org/wiki/index.php/Testing_with_C%2B%2B#Testing_using_libtap.2B.2B)
--    [Download libtap++](http://github.com/downloads/Leont/libperl--/libtap++-0.02.tar.bz2)
-
-A fork of libtap++ that doesn't require a build time dependency to Boost is also available [here](https://github.com/cbab/libtappp).
 
 ### MyTAP (for MySQL)
 MyTAP is a TAP producer for C. It is the unit testing framework used inside the MySQL Server
@@ -85,6 +76,29 @@ MyTAP is a TAP producer for C. It is the unit testing framework used inside the 
 Another library for producing tap in C that compiles without much work on the dumbest (no special library requirements) of Unix-like and Windows development environments. It is feature-full (ok, is, isnt, like, unlike, todo, skip, dies_ok, cmp_ok, etc...), consistent (todo until endtodo, skip until endskip), extendable, and keeps track of file-line information (like test::More does). It also uses macros in nice ways so the user can leave out the message portion at the end of the test ok(1) and ok(1, "hello %s", "world") are both valid.
 
 -    [http://github.com/zorgnax/libtap](http://github.com/zorgnax/libtap)
+
+<a id="cplusplus"></a>
+## C++
+
+> C++ is a general-purpose programming language with a bias towards
+> systems programming that: is a better C, supports data abstraction,
+> object-oriented programming, generic programming, and functional programming.
+>
+> *From [Standard C++](https://isocpp.org/wiki/faq/big-picture#what-is-cpp)*
+
+Looking for a guide?
+[Testing with C++](/testing-with-tap/c-plus-plus.html) has some examples.
+
+**[GoogleTest TAP Listener](https://github.com/kinow/gtest-tap-listener)**
+is a TAP producer for [GoogleTest](https://github.com/google/googletest),
+Google's C++ test framework.
+
+**[libtap++](https://github.com/Leont/libperl--)** is a TAP library
+embedded within `libperl++`. It is a mostly complete port of
+[Test::More](http://perldoc.perl.org/Test/More.html) to C++.
+
+**[libtappp](https://github.com/cbab/libtappp)** is a fork of `libtap++`
+that removes the build time dependency to [Boost](http://www.boost.org/).
 
 <a id="common-lisp"></a>
 ## Common Lisp
