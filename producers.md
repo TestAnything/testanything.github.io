@@ -146,11 +146,19 @@ It is available via [Quicklisp](http://www.quicklisp.org/).
 <a id="java"></a>
 ## Java
 
-### JTap
--    [JTap](http://testanything.org/wiki/index.php/JTap)
+> Java is a general-purpose computer programming language that is concurrent,
+> class-based, object-oriented, and specifically designed to have as
+> few implementation dependencies as possible.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)*
 
-### tap4j
--    [tap4j](http://www.tap4j.org/)
+**[JTap](http://svn.solucorp.qc.ca/repos/solucorp/JTap/trunk/)**
+is a TAP library that implements most of the
+[Test::More](http://perldoc.perl.org/Test/More.html) API.
+
+**[tap4j](http://www.tap4j.org/)** is a full featured TAP library which
+is integrated at the core of other Java projects like the
+[Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
 
 <a id="csharp"></a>
 ## C&#35;
