@@ -276,10 +276,13 @@ to Lua.
 <a id="ocaml"></a>
 ## OCaml
 
-### testSimple
-A unit testing framework for OCaml. It is based heavily on the Perl unit testing framework of the same name, and produces TAP output which can be read and analyzed by a wide range of existing Perl tools. The goal of this framework is to make writing unit tests as simple and as easy as possible (hence the name).
+> OCaml is an industrial strength programming language supporting functional,
+> imperative and object-oriented styles.
+>
+> *From [ocaml.org](https://ocaml.org/)*
 
--     [TestSimple](http://caml.inria.fr/cgi-bin/hump.en.cgi?contrib=561) testSimple project page (last updated 2007)
+**[TestSimple](https://github.com/hcarty/ocaml-testsimple)** is a simple
+unit testing framework based on Perl's very successful Test::\* modules.
 
 <a id="pascal"></a>
 ## Pascal
