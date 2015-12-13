@@ -18,6 +18,7 @@ Languages:
 [Common Lisp](#common-lisp),
 [DB2 SQL PL](#db2sqlpl),
 [Erlang](#erlang),
+[Fish](#fish),
 [Forth](#forth),
 [Go](#go),
 [Haskell](#haskell),
@@ -124,6 +125,18 @@ It is available via [Quicklisp](http://www.quicklisp.org/).
 ## Erlang
 
 -   [etap](http://github.com/ngerakines/etap)
+
+<a id="fish"></a>
+## Fish
+
+> fish is a smart and user-friendly command line
+shell for OS X, Linux, and the rest of the family.
+>
+> *From [fishshell.com](http://fishshell.com/)*
+
+### Fishtape
+
+-    [Fishtape](http://github.com/fisherman/fishtape) - TAP producer and test harness for fish.
 
 <a id="forth"></a>
 ## Forth
@@ -395,7 +408,7 @@ While it's not a working implementation, the Git project has starter code that s
 <a id="db2sqlpl"></a>
 ## DB2 SQL PL
 
-### [db2unit](https://angoca.github.io/db2unit/) 
+### [db2unit](https://angoca.github.io/db2unit/)
 
 - This is a unit testing framework for SQL PL routines that runs in IBM [DB2](www.ibm.com/software/data/db2/express-c/download.html) LUW. This framework produces [TAP v13 output](https://github.com/angoca/db2unit/wiki/TAP-report).
 
