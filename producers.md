@@ -100,6 +100,19 @@ embedded within `libperl++`. It is a mostly complete port of
 **[libtappp](https://github.com/cbab/libtappp)** is a fork of `libtap++`
 that removes the build time dependency to [Boost](http://www.boost.org/).
 
+<a id="csharp"></a>
+## C&#35;
+
+> C# is a multi-paradigm programming language encompassing strong typing,
+> imperative, declarative, functional, generic, object-oriented (class-based),
+> and component-oriented programming disciplines.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29)*
+
+**[Taps](https://code.google.com/p/taps-testing/)** is a test tool for the
+.NET framework and Mono. It is inspired on Perl's testing facilities and
+is therefore quite different from tools like NUnit.
+
 <a id="common-lisp"></a>
 ## Common Lisp
 
@@ -163,20 +176,6 @@ is a TAP library that implements most of the
 **[tap4j](http://www.tap4j.org/)** is a full featured TAP library which
 is integrated at the core of other Java projects like the
 [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
-
-<a id="csharp"></a>
-## C&#35;
-
-### Taps
-Taps is a test tool for the .NET framework. Taps compiles C# test scripts on the fly and runs them. The output of the scripts conforms to the TAP protocol. The set of test functions available to the test scripts is inspired on the test::More module.
-Some features of Taps:
-
--    Allows a test script to run tests in multiple threads
--    Does deep comparison of complex data structures and if they are not equal outputs them annotated with a clear path to the differing item
--    Has multiple output modes: YAML, msbuild-friendly, terse
--    Supports testing of "internal" classes and methods
-
-The project home is hosted at [Google Code](http://code.google.com/p/taps-testing).
 
 <a id="javascript"></a>
 ## Javascript
