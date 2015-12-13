@@ -230,17 +230,16 @@ is a TAP producer that supports version 12.
 <a id="lua"></a>
 ## Lua
 
-### lua-TestMore
+> Lua is a powerful, fast, lightweight, embeddable scripting language.
+>
+> *From [lua.org](http://www.lua.org/about.html)*
 
-A port of the Perl Test::More framework to Lua.
+**[busted](http://olivinelabs.com/busted/)** is a unit testing framework
+for Lua with a built-in TAP output handler.
 
--    [lua-TestMore](http://fperrad.github.io/lua-TestMore/)
-
-### Busted
-
-A unit testing framework for Lua.
-
--    [Busted](http://olivinelabs.com/busted/)
+**[lua-TestMore](http://fperrad.github.io/lua-TestMore/)** is
+a port of the [Test::More](http://perldoc.perl.org/Test/More.html) framework
+to Lua.
 
 <a id="matlab"></a>
 ## MATLAB
