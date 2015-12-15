@@ -137,7 +137,15 @@ It is available via [Quicklisp](http://www.quicklisp.org/).
 <a id="erlang"></a>
 ## Erlang
 
--   [etap](http://github.com/ngerakines/etap)
+> Erlang is a programming language used to build massively scalable soft
+> real-time systems with requirements on high availability.
+>
+> *From [erlang.org](http://www.erlang.org/)*
+
+**[etap](http://github.com/ngerakines/etap)** is a collection of Erlang
+modules that provide a TAP testing client library. These modules are not
+meant to compete with eunit, but to offer a more general testing facility
+that isn't provided by eunit.
 
 <a id="fish"></a>
 ## Fish
@@ -147,9 +155,8 @@ shell for OS X, Linux, and the rest of the family.
 >
 > *From [fishshell.com](http://fishshell.com/)*
 
-### Fishtape
-
--    [Fishtape](http://github.com/fisherman/fishtape) - TAP producer and test harness for fish.
+**[Fishtape](http://github.com/fisherman/fishtape)** is a TAP producer
+and test harness for fish.
 
 <a id="forth"></a>
 ## Forth
