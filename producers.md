@@ -36,8 +36,9 @@ Languages:
 [Prolog](#prolog),
 [Python](#python),
 [Ruby](#ruby),
+[Shell](#shell),
 and
-[Shell](#shell).
+[SQL](#sql).
 
 <a id="ada"></a>
 ## Ada
@@ -54,29 +55,27 @@ for Ada which produces TAP 12 output.
 <a id="c"></a>
 ## C
 
-### C TAP Harness
-Russ Alberry has a C TAP library available [here](http://www.eyrie.org/~eagle/software/c-tap-harness/).
+> C is an imperative (procedural) language. It was designed to be compiled
+> using a relatively straightforward compiler, to provide low-level access
+> to memory, to provide language constructs that map efficiently to machine
+> instructions, and to require minimal run-time support.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/C_%28programming_language%29)*
 
-### [GLib's GTest](https://developer.gnome.org/glib/stable/glib-Testing.html)
-Test executables that use `g_test_init()` present their results as TAP if run with the `--tap` option.
+**[C TAP Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)** is a
+TAP library that implments much of the
+[Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
+specific test functions.
 
-### LibTap
--    [Original version (unmaintained)](http://jc.ngo.org.uk/trac-bin/trac.cgi/wiki/LibTap)
--    [Maintenance version by Shlomi Fish](http://www.shlomifish.org/open-source/projects/libtap/)
--    [Maintenance version by Rusty Russell as part of CCAN](http://ccan.ozlabs.org/info/tap.html)
--    [Article about LibTap](http://use.perl.org/~nik/journal/22137)
-(This library appears to no longer be under active development. It also suffers from an non-POSIX thread implementation. If you remove the thread ifdefs from tap.c it does compile and run however.)
+**[libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
+TAP version 12 producer for C.
 
-### MyTAP (for MySQL)
-MyTAP is a TAP producer for C. It is the unit testing framework used inside the MySQL Server
+**[libtap](http://github.com/zorgnax/libtap)** is another TAP library that
+follows the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 
--    [Testing C and C++ using MyTAP](http://www.kindahl.net/mytap/doc/)
--    [MyTAP](http://theory.github.io/mytap/)
-
-### Yet Another libtap
-Another library for producing tap in C that compiles without much work on the dumbest (no special library requirements) of Unix-like and Windows development environments. It is feature-full (ok, is, isnt, like, unlike, todo, skip, dies_ok, cmp_ok, etc...), consistent (todo until endtodo, skip until endskip), extendable, and keeps track of file-line information (like test::More does). It also uses macros in nice ways so the user can leave out the message portion at the end of the test ok(1) and ok(1, "hello %s", "world") are both valid.
-
--    [http://github.com/zorgnax/libtap](http://github.com/zorgnax/libtap)
+**[MyTAP](http://www.kindahl.net/mytap/doc/)** is another TAP version 12
+producer for C. This library is different from the MyTAP producer for MySQL.
+See [SQL](#sql).
 
 <a id="cplusplus"></a>
 ## C++
@@ -413,6 +412,18 @@ While it's not a working implementation, the Git project has starter code that s
 ### [db2unit](https://angoca.github.io/db2unit/)
 
 - This is a unit testing framework for SQL PL routines that runs in IBM [DB2](www.ibm.com/software/data/db2/express-c/download.html) LUW. This framework produces [TAP v13 output](https://github.com/angoca/db2unit/wiki/TAP-report).
+
+<a id="sql"></a>
+## SQL
+
+> SQL (Structured Query Language) is a special-purpose programming language
+> designed for managing data held in a relational database management system
+> (RDBMS).
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/SQL)*
+
+**[MyTAP](http://theory.github.io/mytap/)** is a suite of database functions
+that make it easy to write TAP-emitting unit tests in mysql scripts.
 
 ## Test and developer tools
 
