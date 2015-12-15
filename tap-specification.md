@@ -394,7 +394,7 @@ tap4j is licensed under MIT License.
 
 ## BUGS
 
-Please report any bugs or feature requests to bug-tap at rt.cpan.org, or through the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=TAP](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=TAP). I will be notified, and then you'll automatically be notified of progress on your bug as I make changes.
+Feature requests and bug reports should be [raised on GitHub.](https://github.com/TestAnything/testanything.github.io/issues/new)
 
 ## SUPPORT
 
