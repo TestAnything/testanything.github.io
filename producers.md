@@ -184,8 +184,17 @@ for `testing/quick.Check` tests.
 <a id="haskell"></a>
 ## Haskell
 
-### TAP Module
--    [HaskellTapModule](http://testanything.org/wiki/index.php/HaskellTapModule)
+> Haskell is an advanced purely-functional programming language.
+>
+> *From [haskell.org](https://www.haskell.org/)*
+
+**[TAP](https://github.com/epsilonhalbe/TAP)** is a TAP producer
+that implements most of the
+[Test::More](http://perldoc.perl.org/Test/More.html) API.
+
+**[tasty-tap](https://github.com/michaelxavier/tasty-tap)** is a TAP producer
+used with the [Tasty](http://documentup.com/feuerbach/tasty) Haskell
+test framework.
 
 <a id="java"></a>
 ## Java
