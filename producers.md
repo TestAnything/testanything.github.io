@@ -160,7 +160,15 @@ and test harness for fish.
 <a id="forth"></a>
 ## Forth
 
--    [Forth/TAP](http://www.hexten.net/wiki/index.php/Forth_TAP)
+> Forth is a computer language originally designed for embedded and
+> real-time applications.
+>
+> *From [FORTH, Inc.](http://www.forth.com/forth/)*
+
+Check out the [Testing with Forth](/testing-with-tap/forth.html) guide.
+
+**[gforth-tap](https://github.com/AndyA/gforth-tap)** is a TAP producer
+for Forth at an alpha level readiness.
 
 <a id="go"></a>
 ## Go
