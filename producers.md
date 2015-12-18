@@ -216,50 +216,37 @@ is integrated at the core of other Java projects like the
 <a id="javascript"></a>
 ## Javascript
 
-### node-tap
-A Node.js test framework and harness toolkit that produces and consumes the TAP format.
+> JavaScript is a prototype-based, multi-paradigm, dynamic scripting language,
+> supporting object-oriented, imperative, and functional programming styles.
+>
+> *From [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)*
 
--    [node-tap](https://github.com/isaacs/node-tap)
+**[BusterJS](http://busterjs.org)** is a JavaScript testing toolkit for
+both [Node.js][node] and browsers that comes with a
+[TAP reporter](http://docs.busterjs.org/en/latest/overview/#reporters).
 
-### tape
-tap-producing test harness for node and browsers.
+**[ESLint](https://github.com/eslint/eslint)** is a JavaScript linting tool
+that runs on [Node.js][node] that has a TAP 'formatter'.
 
--    [tape](https://github.com/substack/tape)
+**[Mocha](http://mochajs.org/)** is a [Node.js][node] and browser testing
+framework that has a [TAP reporter](http://mochajs.org/#tap).
 
-### testling
-Unit tests in all the browsers
+**[node-tap](https://github.com/isaacs/node-tap)** is a [Node.js][node]
+test framework and harness toolkit that produces and consumes the TAP format.
 
-- [testling](https://github.com/substack/testling)
+**[qunit-tap](https://github.com/twada/qunit-tap)** is a TAP output producer
+plugin for [QUnit](http://qunitjs.com/).
 
-### Mocha
-A Node.js and browser testing framework that has TAP 'reporter'.
+**[tape](https://github.com/substack/tape)** is a TAP producing test harness
+for [Node.js][node] and browsers.
 
--    [Mocha](http://mochajs.org/)
--    [Mocha TAP reporter](http://mochajs.org/#tap-reporter)
+**[testling](https://github.com/substack/testling)** runs unit tests in all
+the browsers and outputs TAP.
 
-### ESLint
-A JavaScript linting tool that runs on Node.js that has a TAP 'formatter'.
+**[Test.Simple](https://github.com/theory/test-simple-js)** is a TAP-emitting
+JavaScript test framework.
 
--    [ESLint](https://github.com/eslint/eslint)
-
-### qunit-tap
-Instead of [QUnit](http://docs.jquery.com/Qunit) producing output only in your browser, it can produce TAP.
--    [qunit-tap](https://github.com/twada/qunit-tap) Github project page
--    [Article](http://twoguysarguing.wordpress.com/2010/11/02/make-javascript-tests-part-of-your-build-qunit-rhino/) on running JS tests on the command-line with QUnit and Rhino
-
-### test.Perlish
-Similar to test.Simple above, test.Perlish provides test::Simple style testing but targets [GNOME Seed](http://live.gnome.org/Seed) and can be used with `prove -e` seed.
--    [Test.Perlish](http://gitorious.org/js-test-perlish) Gitorious project page
-
-### test.Simple
-
-[Test.Simple](http://openjsan.org/doc/t/th/theory/Test/Simple/)
-
-### BusterJS
-A JavaScript testing toolkit for both Node.js and browsers. Comes with a TAP reporter.
-
-- [BusterJS](http://busterjs.org)
-- [BusterJS reporters](http://docs.busterjs.org/en/latest/overview/#reporters)
+[node]: https://nodejs.org/en/
 
 <a id="limbo"></a>
 ## Limbo (OS Inferno)
