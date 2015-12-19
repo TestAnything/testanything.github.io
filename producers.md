@@ -278,10 +278,15 @@ to Lua.
 <a id="matlab"></a>
 ## MATLAB
 
-### The MATLAB Unit Test Framework
+> MATLAB is a high-level language for numerical computation, visualization,
+> and application development.
+>
+> *From [MathWorks](http://www.mathworks.com/products/matlab/features.html)*
 
--    [matlab.unittest](http://www.mathworks.com/help/matlab/matlab-unit-test-framework.html)
-     -    [TAPPlugin](http://www.mathworks.com/help/matlab/ref/matlab.unittest.plugins.tapplugin-class.html)    
+**[TAPPlugin](http://www.mathworks.com/help/matlab/ref/matlab.unittest.plugins.tapplugin-class.html)**
+is a plugin for the
+[matlab.unittest](http://www.mathworks.com/help/matlab/matlab-unit-test-framework.html)
+framework that produces output in the TAP version 12 format.
 
 <a id="ocaml"></a>
 ## OCaml
