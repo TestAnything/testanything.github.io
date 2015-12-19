@@ -36,8 +36,8 @@ Languages:
 [Prolog](#prolog),
 [Python](#python),
 [Ruby](#ruby),
-and
-[Shell](#shell).
+[Shell](#shell),
+[TypeScript](#typescript).
 
 <a id="ada"></a>
 ## Ada
@@ -413,6 +413,13 @@ While it's not a working implementation, the Git project has starter code that s
 ### [db2unit](https://angoca.github.io/db2unit/)
 
 - This is a unit testing framework for SQL PL routines that runs in IBM [DB2](www.ibm.com/software/data/db2/express-c/download.html) LUW. This framework produces [TAP v13 output](https://github.com/angoca/db2unit/wiki/TAP-report).
+
+<a id="typescript"></a>
+## TypeScript
+
+### TypeSpec
+
+-    [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) - TypeSpec is a BDD framework for TypeScript with a built-in TapReporter class for TAP compliant output.
 
 ## Test and developer tools
 
