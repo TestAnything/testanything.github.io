@@ -37,8 +37,9 @@ Languages:
 [Python](#python),
 [Ruby](#ruby),
 [Shell](#shell),
+[SQL](#sql),
 and
-[SQL](#sql).
+[TypeScript](#typescript).
 
 <a id="ada"></a>
 ## Ada
@@ -435,6 +436,18 @@ While it's not a working implementation, the Git project has starter code that s
 
 **[MyTAP](http://theory.github.io/mytap/)** is a suite of database functions
 that make it easy to write TAP-emitting unit tests in mysql scripts.
+
+<a id="typescript"></a>
+## TypeScript
+
+> TypeScript is a free and open source programming language developed and
+> maintained by Microsoft. It is a strict superset of JavaScript.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/TypeScript)*
+
+### TypeSpec
+
+-    [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) - TypeSpec is a BDD framework for TypeScript with a built-in TapReporter class for TAP compliant output.
 
 ## Test and developer tools
 
