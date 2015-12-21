@@ -303,10 +303,16 @@ unit testing framework based on Perl's very successful Test::\* modules.
 <a id="pascal"></a>
 ## Pascal
 
-Also Object Pascal, Delphi, FPC (Free Pascal Compiler), etc.:
+> Pascal is a historically influential imperative and procedural
+> programming language, designed as a small and efficient language
+> intended to encourage good programming practices using structured
+> programming and data structuring.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/Pascal_%28programming_language%29)*
 
--    [TAP4Pascal](http://sourceforge.net/projects/tap4pascal/)
-     -    [Freshmeat.net Page](http://freshmeat.net/projects/tap4pascal)
+**[tap4pascal](http://sourceforge.net/projects/tap4pascal/)**
+is a very easy-to-use, but powerful unit testing suite for Pascal
+(FreePascal, Turbo Pascal, et al), conforming to the TAP specification.
 
 <a id="perl"></a>
 ## Perl
