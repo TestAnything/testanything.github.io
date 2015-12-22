@@ -317,13 +317,24 @@ is a very easy-to-use, but powerful unit testing suite for Pascal
 <a id="perl"></a>
 ## Perl
 
-## test::Builder
+> Perl is a general-purpose programming language originally developed for
+> text manipulation and now used for a wide range of tasks including
+> system administration, web development, network programming,
+> GUI development, and more.
+>
+> *From [perl.org](http://perldoc.perl.org/perlintro.html)*
 
--    [Test::Builder](http://search.cpan.org/perldoc?Test::Builder)
+**[Test::Builder](http://search.cpan.org/perldoc?Test::Builder)** is the
+base test library that
+[Test::More](http://perldoc.perl.org/Test/More.html) and
+[Test::Simple](http://perldoc.perl.org/Test/Simple.html) are built upon.
+It provides an API that these testing libraries use to output TAP.
 
-## test.pm
-
--    [Test.pm](http://search.cpan.org/dist/Test)
+**[Test.pm](http://search.cpan.org/dist/Test/lib/Test.pm)** is a Perl
+library with an emphasis placed on simplicity.
+There are more ambitious Perl modules out there, such as
+[Test::More](http://perldoc.perl.org/Test/More.html) and
+[Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
 
 <a id="postresql"></a>
 ## PostgreSQL
