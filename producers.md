@@ -337,9 +337,16 @@ is a very easy-to-use, but powerful unit testing suite for Pascal
 <a id="prolog"></a>
 ## Prolog
 
-### library(tap)
+> Prolog is a general purpose logic programming language that
+> has its roots in first-order logic, a formal logic, and unlike many
+> other programming languages, Prolog is declarative: the program logic
+> is expressed in terms of relations, represented as facts and rules.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/Prolog)*
 
--    [library(tap)](http://www.swi-prolog.org/pack/list?p=tap) - written for SWI-Prolog, but may work with other Prologs
+**[library(tap)](https://github.com/mndrix/tap)** is a TAP library
+written for [SWI-Prolog](http://www.swi-prolog.org/), but may work with
+other Prologs.
 
 <a id="python"></a>
 ## Python
