@@ -16,7 +16,6 @@ Languages:
 [C++](#cplusplus),
 [C#](#csharp),
 [Common Lisp](#common-lisp),
-[DB2 SQL PL](#db2sqlpl),
 [Erlang](#erlang),
 [Fish](#fish),
 [Forth](#forth),
@@ -31,8 +30,6 @@ Languages:
 [Pascal](#pascal),
 [Perl](#perl),
 [PHP](#php),
-[PL/SQL](#plsql),
-[PostgreSQL](#postresql),
 [Prolog](#prolog),
 [Python](#python),
 [Ruby](#ruby),
@@ -215,7 +212,7 @@ is integrated at the core of other Java projects like the
 [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
 
 <a id="javascript"></a>
-## Javascript
+## JavaScript
 
 > JavaScript is a prototype-based, multi-paradigm, dynamic scripting language,
 > supporting object-oriented, imperative, and functional programming styles.
@@ -336,15 +333,6 @@ There are more ambitious Perl modules out there, such as
 [Test::More](http://perldoc.perl.org/Test/More.html) and
 [Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
 
-<a id="postresql"></a>
-## PostgreSQL
-
-### pgTAP
-
--    [pgTAP](http://pgtap.org/)
-     -    [Introducing pgTAP](http://www.justatheory.com/computers/databases/postgresql/introducing_pgtap.html)
-     -    [Conference Presentations](http://www.slideshare.net/search/slideshow?searchfrom=header&q=pgtap)
-
 <a id="prolog"></a>
 ## Prolog
 
@@ -418,11 +406,6 @@ test-more-php provides the test::Simple & test::More APIs for PHP
 PHP5 Unit Testing Framework
 - [SnapTest](http://www.snaptest.net/)
 
-<a id="plsql"></a>
-## PL/SQL
-
--    [TAP-compliant testing in PL/SQL](http://use.perl.org/~jdavidb/journal/30641) (needs work)
-
 <a id="shell"></a>
 ## SH / Shell Script
 
@@ -447,13 +430,6 @@ While it's not a working implementation, the Git project has starter code that s
 
 -    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
 
-<a id="db2sqlpl"></a>
-## DB2 SQL PL
-
-### [db2unit](https://angoca.github.io/db2unit/)
-
-- This is a unit testing framework for SQL PL routines that runs in IBM [DB2](www.ibm.com/software/data/db2/express-c/download.html) LUW. This framework produces [TAP v13 output](https://github.com/angoca/db2unit/wiki/TAP-report).
-
 <a id="sql"></a>
 ## SQL
 
@@ -463,8 +439,22 @@ While it's not a working implementation, the Git project has starter code that s
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/SQL)*
 
+**[db2unit](https://angoca.github.io/db2unit/)** is a unit testing framework
+for SQL PL routines that runs in IBM
+[DB2 LUW](http://www-01.ibm.com/software/data/db2/linux-unix-windows/) and
+produces TAP version 13 output.
+
 **[MyTAP](http://theory.github.io/mytap/)** is a suite of database functions
 that make it easy to write TAP-emitting unit tests in mysql scripts.
+
+**[pgTAP](http://pgtap.org/)** is a suite of database functions
+for [PostgreSQL](http://www.postgresql.org/) that make it easy to write
+TAP-emitting unit tests in `psql` scripts or xUnit-style test functions.
+
+**[PL/SQL TAP](http://use.perl.org/use.perl.org/_jdavidb/journal/30641.html)**
+is a script for testing with Oracle's
+[PL/SQL](http://www.oracle.com/technetwork/database/features/plsql/index.html)
+procedural extension for SQL.
 
 <a id="typescript"></a>
 ## TypeScript
