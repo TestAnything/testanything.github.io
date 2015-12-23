@@ -219,6 +219,9 @@ is integrated at the core of other Java projects like the
 >
 > *From [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)*
 
+**[AVA](https://github.com/sindresorhus/ava)** an asynchronous test framework
+combining plans and tests and has an optional TAP reporter.
+
 **[BusterJS](http://busterjs.org)** is a JavaScript testing toolkit for
 both [Node.js][node] and browsers that comes with a
 [TAP reporter](http://docs.busterjs.org/en/latest/overview/#reporters).
