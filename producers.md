@@ -370,9 +370,14 @@ tappy produces TAP output for any test cases using Python's standard `unittest` 
 <a id="ruby"></a>
 ## Ruby
 
-### Bacon
+> Ruby is a dynamic, open source programming language with a focus on
+> simplicity and productivity. It has an elegant syntax that is natural
+> to read and easy to write.
+>
+> *From [ruby-lang.org](https://www.ruby-lang.org/en/)*
 
--    [bacon](http://github.com/chneukirchen/bacon/tree/master) produces version 12 TAP output
+**[Bacon](http://github.com/chneukirchen/bacon)** is a small
+[RSpec](http://rspec.info/) clone that support TAP output.
 
 <a id="php"></a>
 ## PHP
