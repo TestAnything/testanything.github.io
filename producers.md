@@ -377,7 +377,7 @@ tappy produces TAP output for any test cases using Python's standard `unittest` 
 > *From [ruby-lang.org](https://www.ruby-lang.org/en/)*
 
 **[Bacon](http://github.com/chneukirchen/bacon)** is a small
-[RSpec](http://rspec.info/) clone that support TAP output.
+[RSpec](http://rspec.info/) clone that supports TAP output.
 
 <a id="php"></a>
 ## PHP
