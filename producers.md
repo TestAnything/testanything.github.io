@@ -353,19 +353,28 @@ other Prologs.
 <a id="python"></a>
 ## Python
 
-### Bayeux
+> Python is an easy to learn, powerful programming language. It has efficient
+> high-level data structures and a simple but effective approach to
+> object-oriented programming.
+>
+> *From [python.org](https://docs.python.org/3/tutorial/index.html)*
 
--    [Bayeux](https://pypi.python.org/pypi/bayeux/) — module for generating fully decorated TAP from Python (based on [yamlish](https://pypi.python.org/pypi/yamlish)), also included is a module making unittest producing TAP stream instead of the normal output.
+**[Bayeux](https://pypi.python.org/pypi/bayeux/)** is a module for generating
+fully decorated TAP from Python
+(based on [yamlish](https://pypi.python.org/pypi/yamlish)).
+It also includes a [`unittest`](https://docs.python.org/3/library/unittest.html)
+module that produces a TAP stream instead of the normal output.
 
-### PyTAP
+**[PyTAP](https://github.com/rjbs/pytap)** is a port of
+[Test::Simple](http://perldoc.perl.org/Test/Simple.html) to Python.
 
--    [PyTAP git repository](http://git.codesimply.com/?p=PyTAP.git;a=summary)
-
-### tappy
-
-tappy produces TAP output for any test cases using Python's standard `unittest` library.
-
--    [tappy at Read the Docs](http://tappy.readthedocs.org/en/latest/)
+**[tappy](http://tappy.readthedocs.org/en/latest/)**
+provides tools for working with TAP in Python.
+It includes modules to work with
+[`unittest`](https://docs.python.org/3/library/unittest.html)
+and plugins that output TAP for
+[nose](https://nose.readthedocs.org/en/latest/) and
+[pytest](http://pytest.org/latest/).
 
 <a id="ruby"></a>
 ## Ruby
