@@ -424,28 +424,32 @@ PHP5 Unit Testing Framework
 - [SnapTest](http://www.snaptest.net/)
 
 <a id="shell"></a>
-## SH / Shell Script
+## Shell
 
-### Bats
+> A shell script is a computer program designed to be run by the Unix shell,
+> a command line interpreter. The various dialects of shell scripts are
+> considered to be scripting languages. Typical operations performed by
+> shell scripts include file manipulation, program execution, and printing text.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/Shell_script)*
 
--    [Bats](http://github.com/sstephenson/bats) - the Bash Automated Testing System
+**[bash-tap-functions](https://github.com/goozbach/bash-tap-functions)**
+is a TAP-producing Bash libary.
 
-### tap-functions
+**[Bats](http://github.com/sstephenson/bats)** is a TAP-compliant testing
+framework for Bash. It provides a simple way to verify that the UNIX programs
+you write behave as expected.
 
--     [tap-functions](http://testanything.org/wiki/index.php/Tap-functions)
+**[Git](https://github.com/git/git)** has code that supplies the
+`ok` / `not ok` and skipping functionality. Look in `t/test-lib.sh` and
+other test files for example code and use.
 
-(An excellent and useful library, I use it often. --Jeremiah)
+**[Sharness](https://github.com/mlafeldt/Sharness)** is a portable shell
+library to write, run, and analyze automated tests for Unix programs.
+Since all tests output TAP, they can be run with any TAP harness.
 
-### Sharness
--    [Sharness](https://github.com/mlafeldt/Sharness) - Shell-based Test Harness Library, derived from Git project (see below)
-
-### Git Project
-While it's not a working implementation, the Git project has starter code that supplies the basic functionality of ok/not Ok and some skipping functionality, even with colored output! Look in t/test-lib.sh and other test files for example code and use.
--    [Latest Git Snapshot](http://www.codemonkey.org.uk/projects/git-snapshots/git/git-latest.tar.gz)
-
-### bash-test-utils
-
--    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
+**[Tapper-autoreport](https://github.com/tapper/Tapper-autoreport)**
+turns bash scripts into TAP test scripts.
 
 <a id="sql"></a>
 ## SQL
@@ -481,9 +485,8 @@ procedural extension for SQL.
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/TypeScript)*
 
-### TypeSpec
-
--    [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) - TypeSpec is a BDD framework for TypeScript with a built-in TapReporter class for TAP compliant output.
+**[TypeSpec](https://github.com/Steve-Fenton/TypeSpec)** is a BDD framework
+for TypeScript with a built-in TapReporter class for TAP compliant output.
 
 ## Test and developer tools
 
