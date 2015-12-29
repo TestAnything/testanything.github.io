@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Main Page
+title: Home
 ---
 
 # Test Anything Protocol
