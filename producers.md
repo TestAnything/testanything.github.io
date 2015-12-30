@@ -324,6 +324,9 @@ is a very easy-to-use, but powerful unit testing suite for Pascal
 >
 > *From [perl.org](http://perldoc.perl.org/perlintro.html)*
 
+**[Apache::Test](http://search.cpan.org/dist/Apache-Test/)** is a
+[Test.pm](http://perldoc.perl.org/Test.html) wrapper with helpers for testing Apache.
+
 **[Test::Builder](http://search.cpan.org/perldoc?Test::Builder)** is the
 base test library that
 [Test::More](http://perldoc.perl.org/Test/More.html) and
@@ -335,6 +338,35 @@ library with an emphasis placed on simplicity.
 There are more ambitious Perl modules out there, such as
 [Test::More](http://perldoc.perl.org/Test/More.html) and
 [Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
+
+<a id="php"></a>
+## PHP
+
+> PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+> open source general-purpose scripting language that is especially suited
+> for web development and can be embedded into HTML.
+>
+> *From [php.net](https://secure.php.net/manual/en/intro-whatis.php)*
+
+**[PHPUnit](http://www.phpunit.de/)** is a programmer-oriented testing
+framework for PHP. It is an instance of the xUnit architecture for unit
+testing frameworks and supports logging TAP.
+
+**[SimpleTest TAP reporter](http://digitalsandwich.com/Updated-Simpletest+Apache-Test/)**
+is a TAP producer for [SimpleTest](http://www.simpletest.org/).
+
+**[SnapTest](http://www.snaptest.net/)** is a powerful unit testing framework
+for PHP 5+, leveraging PHP's unique runtime language to simplify the unit
+test process without sacrificing the agility tests provide. It has a built-in
+TAP reporter.
+
+**[Test.php](http://search.cpan.org/dist/Test.php/Test.php)** is a TAP test
+framework for PHP with an interface like
+[Test::More](http://perldoc.perl.org/Test/More.html).
+
+**[testmore](https://github.com/shiflett/testmore)** is a TAP-compliant
+PHP testing library based on
+[Test::More](http://perldoc.perl.org/Test/More.html).
 
 <a id="prolog"></a>
 ## Prolog
@@ -387,41 +419,6 @@ and plugins that output TAP for
 
 **[Bacon](http://github.com/chneukirchen/bacon)** is a small
 [RSpec](http://rspec.info/) clone that supports TAP output.
-
-<a id="php"></a>
-## PHP
-
-### phpt
-
--    [phpt](http://pear.php.net/PEAR)
-
-### PHPUnit
-
--   [PHPUnit](http://www.phpunit.de/)
-
-### Simpletest
-
--   [SimpleTest TAP support](http://digitalsandwich.com/archives/51-Updated-Simpletest+Apache-Test.html)
-
-### test.php
-
--    [Test.php](http://search.cpan.org/dist/Test.php/) on CPAN
-
-### Apache::test
-
-Apache-test's PHP writes TAP by default and includes the standalone [test-more.php](http://shiflett.org/code/test-more.php)
-
--    [Apache::Test](http://search.cpan.org/dist/Apache-Test/)
-
-### test-more-php
-
-test-more-php provides the test::Simple & test::More APIs for PHP
--    [test-more-php](http://code.google.com/p/test-more-php/)
-
-### SnapTest
-
-PHP5 Unit Testing Framework
-- [SnapTest](http://www.snaptest.net/)
 
 <a id="shell"></a>
 ## Shell
