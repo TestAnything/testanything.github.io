@@ -52,7 +52,3 @@ Things that can take TAP as an input and do something useful with it.
 -    Should be forward compatible.
      -    Ignore unknown directives
      -    Ignore any unparsable lines
-
-### Non Proliferation
-
-TAP producer authors should be aware of (and hopefully sign) the [TAP Namespace Nonproliferation Treaty](/namespace-nonproliferation-treaty.html)

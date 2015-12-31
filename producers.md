@@ -531,7 +531,3 @@ Hosted service that runs your test suite in many different browsers every time
 you push to GitHub. It can run any test suite so long as it writes TAP to the browser console.
 
 -   [Testling](https://ci.testling.com/guide/local_tests)
-
-### Non Proliferation
-
-TAP producer authors should be aware of (and hopefully sign) the [TAP Namespace Nonproliferation Treaty](/namespace-nonproliferation-treaty.html)
