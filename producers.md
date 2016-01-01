@@ -38,6 +38,9 @@ Languages:
 and
 [TypeScript](#typescript).
 
+Some test frameworks exist with
+[TAP producers that are not language specific](#frameworks).
+
 <a id="ada"></a>
 ## Ada
 
@@ -485,52 +488,18 @@ procedural extension for SQL.
 **[TypeSpec](https://github.com/Steve-Fenton/TypeSpec)** is a BDD framework
 for TypeScript with a built-in TapReporter class for TAP compliant output.
 
-## Test and developer tools
+<a id="frameworks"></a>
+## Test frameworks
 
-### Automake
-Programming tool that reads data about a project and outputs
-a pattern for a portable makefile which a configure script
-can fill for use by the make program, used in compiling software.
+Some test frameworks solve problems that are not specific to a programming
+language. These frameworks might be used for infrastructure or other kinds
+of high level testing.
 
--   [automake](http://www.gnu.org/software/automake/manual/html_node/Using-the-TAP-test-protocol.html#Using-the-TAP-test-protocol)
+**[autotest](http://autotest.github.io/)** is a framework for fully automated
+testing with the ability to produce TAP reports.
 
-### Hudson
-Extensible Continuous Integration Server.
-
--   [Hudson](http://hudson-ci.org/)
-
-### Jenkins
-Extendable open source continuous integration server.
-
--	[Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin)
-
-### Kyua
-Testing framework for infrastructure software.
-
--   [Kyua](https://github.com/jmmv/kyua)
-
-### Tapper
-Test infrastructure.
-
--   [Tapper](http://tapper.github.io/Tapper/)
-
-### Xperior
-Testing tool.
-
-- [Xperior](https://github.com/Xyratex/xperior)
-
-### Autotest
-Autotest is a framework for fully automated testing.
-
--   [autotest](http://autotest.github.io/)
-
-## Web services
-
-### Testling CI
-Hosted service that runs your test suite in many different browsers every time
-you push to GitHub. It can run any test suite so long as it writes TAP to the browser console.
-
--   [Testling](https://ci.testling.com/guide/local_tests)
+**[Xperior](https://github.com/Xyratex/xperior)** is a system for testing
+distributed filesystems. Xperior can output TAP test results.
 
 ### Non Proliferation
 
