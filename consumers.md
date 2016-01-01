@@ -30,6 +30,8 @@ Things that can take TAP as an input and do something useful with it.
 -    [node-tap](https://www.npmjs.com/package/tap)
 -    [TAP parser](https://www.npmjs.com/package/tap-parser)
 -    [tape](https://www.npmjs.com/package/tape)
+-    [Testling](https://ci.testling.com/guide/local_tests) consumes browser
+     test output for any browser test suite that outputs TAP to `console.log`.
 
 ## C
 
