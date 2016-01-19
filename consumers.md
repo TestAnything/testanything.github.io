@@ -9,9 +9,9 @@ Things that can take TAP as an input and do something useful with it.
 
 ## Perl
 
--    [TAP::Parser](http://search.cpan.org/~markwkm/Test-Parser-1.9/lib/Test/Parser.pm)
--    [Test::Harness](http://search.cpan.org/~leont/Test-Harness-3.30/lib/Test/Harness.pm)
--    [Test::Run](http://search.cpan.org/~shlomif/Test-Run-0.0302/lib/Test/Run.pm)
+-    [TAP::Parser](http://search.cpan.org/dist/Test-Harness/lib/TAP/Parser.pm)
+-    [Test::Harness](http://search.cpan.org/dist/Test-Harness/lib/Test/Harness.pm)
+-    [Test::Run](http://search.cpan.org/dist/Test-Run/lib/Test/Run.pm)
 -    [Smolder project background](http://sourceforge.net/projects/smolder/)
 -    [TapTinder](http://dev.taptinder.org/wiki/TapTinder)
 -    [metatap](http://search.cpan.org/search?query=metatap)
