@@ -110,7 +110,7 @@ that removes the build time dependency to [Boost](http://www.boost.org/).
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29)*
 
-**[Taps](https://code.google.com/p/taps-testing/)** is a test tool for the
+**[Taps](https://github.com/TestAnything/taps-testing/)** is a test tool for the
 .NET framework and Mono. It is inspired on Perl's testing facilities and
 is therefore quite different from tools like NUnit.
 
