@@ -238,6 +238,8 @@ framework that has a [TAP reporter](http://mochajs.org/#tap).
 **[node-tap](https://github.com/isaacs/node-tap)** is a [Node.js][node]
 test framework and harness toolkit that produces and consumes the TAP format.
 
+**[Painless](https://github.com/taylorhakes/painless)** a modern, easy to use test library for node and browsers that has an optional TAP reporter.
+
 **[qunit-tap](https://github.com/twada/qunit-tap)** is a TAP output producer
 plugin for [QUnit](http://qunitjs.com/).
 
