@@ -147,6 +147,11 @@ modules that provide a TAP testing client library. These modules are not
 meant to compete with eunit, but to offer a more general testing facility
 that isn't provided by eunit.
 
+**[CTTAP](http://github.com/Stratus3D/cttap)** is Common Test hook that 
+generates TAP output for existing Common Test test suites. CTTAP provides
+a simple way to generate TAP output without having to modify existing
+test code.
+
 <a id="fish"></a>
 ## Fish
 
