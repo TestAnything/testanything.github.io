@@ -423,6 +423,10 @@ and plugins that output TAP for
 **[Bacon](http://github.com/chneukirchen/bacon)** is a small
 [RSpec](http://rspec.info/) clone that supports TAP output.
 
+**[SCSS-Lint](https://github.com/brigade/scss-lint)** is a 
+configurable tool for writing clean and consistent 
+[SCSS](http://sass-lang.com) that supports TAP output.
+
 <a id="shell"></a>
 ## Shell
 
