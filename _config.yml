@@ -4,4 +4,4 @@
 
 name: TestAnything.org
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
