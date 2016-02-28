@@ -42,6 +42,7 @@ Some test frameworks exist with
 [TAP producers that are not language specific](#frameworks).
 
 <a id="ada"></a>
+
 ## Ada
 
 > Ada is a modern programming language designed for large,
@@ -54,6 +55,7 @@ Some test frameworks exist with
 for Ada which produces TAP 12 output.
 
 <a id="c"></a>
+
 ## C
 
 > C is an imperative (procedural) language. It was designed to be compiled
@@ -79,6 +81,7 @@ producer for C. This library is different from the MyTAP producer for MySQL.
 See [SQL](#sql).
 
 <a id="cplusplus"></a>
+
 ## C++
 
 > C++ is a general-purpose programming language with a bias towards
@@ -102,6 +105,7 @@ embedded within `libperl++`. It is a mostly complete port of
 that removes the build time dependency to [Boost](http://www.boost.org/).
 
 <a id="csharp"></a>
+
 ## C&#35;
 
 > C# is a multi-paradigm programming language encompassing strong typing,
@@ -115,6 +119,7 @@ that removes the build time dependency to [Boost](http://www.boost.org/).
 is therefore quite different from tools like NUnit.
 
 <a id="common-lisp"></a>
+
 ## Common Lisp
 
 > Common Lisp is the modern, multi-paradigm, high-performance, compiled,
@@ -135,6 +140,7 @@ Currently, it supports TAP version 12 and xUnit style output.
 It is available via [Quicklisp](http://www.quicklisp.org/).
 
 <a id="erlang"></a>
+
 ## Erlang
 
 > Erlang is a programming language used to build massively scalable soft
@@ -153,6 +159,7 @@ meant to compete with eunit, but to offer a more general testing facility
 that isn't provided by eunit.
 
 <a id="fish"></a>
+
 ## Fish
 
 > fish is a smart and user-friendly command line
@@ -164,6 +171,7 @@ shell for OS X, Linux, and the rest of the family.
 and test harness for fish.
 
 <a id="forth"></a>
+
 ## Forth
 
 > Forth is a computer language originally designed for embedded and
@@ -177,6 +185,7 @@ Check out the [Testing with Forth](/testing-with-tap/forth.html) guide.
 for Forth at an alpha level readiness.
 
 <a id="go"></a>
+
 ## Go
 
 > Go is an open source programming language that makes it easy to build
@@ -188,6 +197,7 @@ for Forth at an alpha level readiness.
 for `testing/quick.Check` tests.
 
 <a id="haskell"></a>
+
 ## Haskell
 
 > Haskell is an advanced purely-functional programming language.
@@ -203,6 +213,7 @@ used with the [Tasty](http://documentup.com/feuerbach/tasty) Haskell
 test framework.
 
 <a id="java"></a>
+
 ## Java
 
 > Java is a general-purpose computer programming language that is concurrent,
@@ -220,6 +231,7 @@ is integrated at the core of other Java projects like the
 [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
 
 <a id="javascript"></a>
+
 ## JavaScript
 
 > JavaScript is a prototype-based, multi-paradigm, dynamic scripting language,
@@ -258,6 +270,7 @@ JavaScript test framework.
 [node]: https://nodejs.org/en/
 
 <a id="limbo"></a>
+
 ## Limbo (OS Inferno)
 
 > Limbo is the application programming language for Inferno.
@@ -271,6 +284,7 @@ JavaScript test framework.
 is a TAP producer that supports version 12.
 
 <a id="lua"></a>
+
 ## Lua
 
 > Lua is a powerful, fast, lightweight, embeddable scripting language.
@@ -285,6 +299,7 @@ a port of the [Test::More](http://perldoc.perl.org/Test/More.html) framework
 to Lua.
 
 <a id="matlab"></a>
+
 ## MATLAB
 
 > MATLAB is a high-level language for numerical computation, visualization,
@@ -298,6 +313,7 @@ is a plugin for the
 framework that produces output in the TAP version 12 format.
 
 <a id="ocaml"></a>
+
 ## OCaml
 
 > OCaml is an industrial strength programming language supporting functional,
@@ -309,6 +325,7 @@ framework that produces output in the TAP version 12 format.
 unit testing framework based on Perl's very successful Test::\* modules.
 
 <a id="pascal"></a>
+
 ## Pascal
 
 > Pascal is a historically influential imperative and procedural
@@ -323,6 +340,7 @@ is a very easy-to-use, but powerful unit testing suite for Pascal
 (FreePascal, Turbo Pascal, et al), conforming to the TAP specification.
 
 <a id="perl"></a>
+
 ## Perl
 
 > Perl is a general-purpose programming language originally developed for
@@ -348,6 +366,7 @@ There are more ambitious Perl modules out there, such as
 [Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
 
 <a id="php"></a>
+
 ## PHP
 
 > PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
@@ -377,6 +396,7 @@ PHP testing library based on
 [Test::More](http://perldoc.perl.org/Test/More.html).
 
 <a id="prolog"></a>
+
 ## Prolog
 
 > Prolog is a general purpose logic programming language that
@@ -391,6 +411,7 @@ written for [SWI-Prolog](http://www.swi-prolog.org/), but may work with
 other Prologs.
 
 <a id="python"></a>
+
 ## Python
 
 > Python is an easy to learn, powerful programming language. It has efficient
@@ -417,6 +438,7 @@ and plugins that output TAP for
 [pytest](http://pytest.org/latest/).
 
 <a id="ruby"></a>
+
 ## Ruby
 
 > Ruby is a dynamic, open source programming language with a focus on
@@ -433,6 +455,7 @@ configurable tool for writing clean and consistent
 [SCSS](http://sass-lang.com) that supports TAP output.
 
 <a id="shell"></a>
+
 ## Shell
 
 > A shell script is a computer program designed to be run by the Unix shell,
@@ -461,6 +484,7 @@ Since all tests output TAP, they can be run with any TAP harness.
 turns bash scripts into TAP test scripts.
 
 <a id="sql"></a>
+
 ## SQL
 
 > SQL (Structured Query Language) is a special-purpose programming language
@@ -487,6 +511,7 @@ is a script for testing with Oracle's
 procedural extension for SQL.
 
 <a id="typescript"></a>
+
 ## TypeScript
 
 > TypeScript is a free and open source programming language developed and
@@ -498,6 +523,7 @@ procedural extension for SQL.
 for TypeScript with a built-in TapReporter class for TAP compliant output.
 
 <a id="frameworks"></a>
+
 ## Test frameworks
 
 Some test frameworks solve problems that are not specific to a programming
