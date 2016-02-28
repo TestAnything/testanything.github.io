@@ -94,6 +94,7 @@ The complete flow in this system can look something like this:
 ```
 
 Additionally, utilities like "prove" can further simplify running a suite of TAP producers, by searching for files having certain characteristics or matching particular patterns. For instance, conventionally, all tests for a Perl module are stored in the 't/' folder, and consist of executable scripts (TAP producers) with extensions of 't'. The "prove" utility, part of the Test::Harness module, can then be used to find these files and run them all. In the following example, prove executes t/error.t, t/id.t and t/url.t and evaluates the produced TAP streams in turn, checking which ones passed and failed, and providing a complete summary of the entire test suite run.
+
 ```
 $ prove t/*.t
 t/error.t...ok   
@@ -262,6 +263,7 @@ An example of the use of this option is to check exit codes of TAP producers for
 See [RFC 3552](http://www.apps.ietf.org/rfc/rfc3552.html) for tips on how to write this section.
 Problems with parsing debugging status?
 A parser which stores test results in a dynamically sized array may be vulnerable to memory starvation by a test which uses a very high test number. For example...
+
 ```
   1..3
   ok 1
