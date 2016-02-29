@@ -3,5 +3,8 @@
 # and regenerated automatifcally by GitHub
 
 name: TestAnything.org
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false

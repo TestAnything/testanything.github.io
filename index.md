@@ -10,11 +10,11 @@ TAP, the Test Anything Protocol, is a simple text-based interface between testin
 Here's what a TAP test stream looks like:
 
 ```
- 1..4
- ok 1 - Input file opened
- not ok 2 - First line of the input valid
- ok 3 - Read the rest of the file
- not ok 4 - Summarized correctly # TODO Not written yet
+1..4
+ok 1 - Input file opened
+not ok 2 - First line of the input valid
+ok 3 - Read the rest of the file
+not ok 4 - Summarized correctly # TODO Not written yet
 ```
 
 ## Testing with TAP
