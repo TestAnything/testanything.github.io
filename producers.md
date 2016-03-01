@@ -33,6 +33,7 @@ Languages:
 [Prolog](#prolog),
 [Python](#python),
 [Ruby](#ruby),
+[Sass](#sass),
 [Shell](#shell),
 [SQL](#sql),
 and
@@ -408,8 +409,15 @@ and plugins that output TAP for
 **[Bacon](http://github.com/chneukirchen/bacon)** is a small
 [RSpec](http://rspec.info/) clone that supports TAP output.
 
-**[SCSS-Lint](https://github.com/brigade/scss-lint)** is a 
-configurable tool for writing clean and consistent 
+## [Sass](#sass) <a id="sass"></a>
+
+> Sass is the most mature, stable, and powerful professional grade CSS
+> extension language in the world.
+>
+> *From [sass-lang.com](http://sass-lang.com/)*
+
+**[SCSS-Lint](https://github.com/brigade/scss-lint)** is a
+configurable tool for writing clean and consistent
 [SCSS](http://sass-lang.com) that supports TAP output.
 
 ## [Shell](#shell) <a id="shell"></a>
