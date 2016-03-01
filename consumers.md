@@ -20,16 +20,16 @@ Languages:
 and
 [Others](#others).
 
-## [C](#c) <a id="c"></a>
+## <a id="c"></a> [C](#c)
 
 - [C Tap Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)
 - [YACC parser](https://github.com/ligurio/tap-parser)
 
-## [Java](#java) <a id="java"></a>
+## <a id="java"></a> [Java](#java)
 
 - [tap4j](http://sourceforge.net/projects/tap4j/)
 
-## [JavaScript](#javascript) <a id="javascript"></a>
+## <a id="javascript"></a> [JavaScript](#javascript)
 
 - [node-tap](https://www.npmjs.com/package/tap)
 - [TAP parser](https://www.npmjs.com/package/tap-parser)
@@ -37,7 +37,7 @@ and
 - [Testling](https://ci.testling.com/guide/local_tests) consumes browser
   test output for any browser test suite that outputs TAP to `console.log`.
 
-## [Perl](#perl) <a id="perl"></a>
+## <a id="perl"></a> [Perl](#perl)
 
 - [TAP::Parser](http://search.cpan.org/dist/Test-Harness/lib/TAP/Parser.pm)
 - [Test::Harness](http://search.cpan.org/dist/Test-Harness/lib/Test/Harness.pm)
@@ -47,11 +47,11 @@ and
 - [metatap](http://search.cpan.org/search?query=metatap)
 - [Tapper test infrastructure](http://tapper-testing.org)
 
-## [Python](#python) <a id="python"></a>
+## <a id="python"></a> [Python](#python)
 
 - [tappy](https://pypi.python.org/pypi/tap.py)
 
-## [Others](#others) <a id="others"></a>
+## <a id="others"></a> [Others](#others)
 
 - [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin)
 - [Desktop notifications](https://github.com/ryandoyle/shouldertap)
