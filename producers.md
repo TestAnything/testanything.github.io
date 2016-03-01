@@ -429,9 +429,7 @@ and plugins that output TAP for
 **[Bacon](http://github.com/chneukirchen/bacon)** is a small
 [RSpec](http://rspec.info/) clone that supports TAP output.
 
-<a id="sass"></a>
-
-## Sass
+## [Sass](#sass) <a id="sass"></a>
 
 > Sass is the most mature, stable, and powerful professional grade CSS
 > extension language in the world.
