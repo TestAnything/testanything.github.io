@@ -25,28 +25,28 @@ You may not be familiar with [Forth](https://en.wikipedia.org/wiki/Forth_(progra
 It's recommended that whenever possible your TAP should start with a plan. The plan says how many tests are expected to run and looks like this:
 
 ```
- 1..10
+1..10
 ```
 
 The plan always takes the form 1..*number* of tests.
 In Forth we can output a plan like this:
 
 ```
- ." 1..10" cr
+." 1..10" cr
 ```
 
 Or you can define the word plan like this:
 
 ```
- : plan ( n -- )
-     ." 1.." . cr
- ;
+: plan ( n -- )
+    ." 1.." . cr
+;
 ```
 
 and use it like this:
 
 ```
- 10 plan
+10 plan
 ```
 
 ### Test results
@@ -54,32 +54,32 @@ and use it like this:
 The general form of a test result is either
 
 ```
- ok test-number description
+ok test-number description
 ```
 
 or
 
 ```
- not ok test-number description
+not ok test-number description
 ```
 
 The description is optional so we'll omit it for now and concentrate on generating results that a TAP parser can process.
 We need a variable to hold the number of the next test. In Forth that looks like this:
 
 ```
- Variable test# 
- 0 test# !
+Variable test# 
+0 test# !
 ```
 
 And we need something to output the result:
 
 ```
- : ok ( f -- )
- 	0= if ." not " then
- 	." ok "
- 	test# dup @ 1+ dup . swap !
- 	cr
- ;
+: ok ( f -- )
+	0= if ." not " then
+	." ok "
+	test# dup @ 1+ dup . swap !
+	cr
+;
 ```
 
 Now we have a word called ok which checks the top value on the stack and outputs 'ok' or 'not ok' depending on whether it's true (non-zero) or false (zero). With that we have everything necessary to start TAP based testing.
@@ -90,23 +90,23 @@ Now we have a word called ok which checks the top value on the stack and outputs
 Here's a simple test of addition and subtraction using the words we just defined:
 
 ```
- #! /usr/local/bin/gforth
- 
- require tap.fs
- 
- 2 plan
- 1 1 + 2 = ok
- 2 1 - 1 = ok
- 
- bye
+#! /usr/local/bin/gforth
+
+require tap.fs
+
+2 plan
+1 1 + 2 = ok
+2 1 - 1 = ok
+
+bye
 ```
 
 It assumes that we saved our TAP generating code in a file called tap.fs. When run it will output
 
 ```
- 1..2
- ok 1
- ok 2
+1..2
+ok 1
+ok 2
 ```
 
 ### Analysing the results
@@ -114,13 +114,13 @@ It assumes that we saved our TAP generating code in a file called tap.fs. When r
 If you have the Perl prove utility (which is part of [Test::Harness](http://search.cpan.org/dist/Test-Harness/) you can use it to run this test script and analyse the results:
 
 ```
- $ prove -v simple.fs
- t/simple...1..2 
- ok 1 
- ok 2 
- ok
- All tests successful.
- Files=1, Tests=2,  0 wallclock secs ( 0.01 cusr +  0.02 csys =  0.03 CPU)
+$ prove -v simple.fs
+t/simple...1..2 
+ok 1 
+ok 2 
+ok
+All tests successful.
+Files=1, Tests=2,  0 wallclock secs ( 0.01 cusr +  0.02 csys =  0.03 CPU)
 ```
 
 #### Get the code

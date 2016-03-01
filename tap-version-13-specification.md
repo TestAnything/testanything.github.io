@@ -64,7 +64,7 @@ not ok 4 - Summarized correctly # TODO Not written yet
 ## HARNESS BEHAVIOR
 
 In this document, the "harness" is any program analyzing TAP output. Typically this will be Perl's runtests program, or the underlying TAP::Harness-runtests> method.
-A harness must only read TAP output from standard output and not from standard error. Lines written to standard output matching /^(not)?ok\b/ must be interpreted as test lines. After a test line a block of lines starting with '---' and ending with '...' will be interpreted as an inline YAML document providing extended diagnostic information about the preceding test. All other lines must not be considered test output.
+A harness must only read TAP output from standard output and not from standard error. Lines written to standard output matching /^(not )?ok\b/ must be interpreted as test lines. After a test line a block of lines starting with '---' and ending with '...' will be interpreted as an inline YAML document providing extended diagnostic information about the preceding test. All other lines must not be considered test output.
 
 ## TESTS LINES AND THE PLAN
 

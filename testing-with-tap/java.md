@@ -9,9 +9,9 @@ title: Testing with Java
 
 ### Installation
 
-In order to install tap4j you have to download a jar from (http://tap4j.sourceforge.net)[http://tap4j.sourceforge.net] or if you are a Maven user you can add a dependency in your pom.xml, as shown below.
+In order to install tap4j you have to download a jar from [http://tap4j.sourceforge.net](http://tap4j.sourceforge.net) or if you are a Maven user you can add a dependency in your pom.xml, as shown below.
 
-```
+```xml
 <dependency>
  <groupid>br.eti.kinoshita</groupid>
  <artifactid>tap4j</artifactid>
@@ -24,7 +24,7 @@ Differently than in others implementations, tap4j uses an Object Oriented approa
 
 The TAP Producers in tap4j are created using a [TapProducerFactory](http://tap4j.sourceforge.net/apidocs/org/tap4j/producer/TapProducerFactory.html). After a TAP Producer is created we can call the dump method passing a [TestSet](http://tap4j.sourceforge.net/apidocs/org/tap4j/model/TestSet.html) to have the result TAP.
 
-```
+```java
 TapProducer tapProducer = TapProducerFactory.makeTap13Producer();
 testSet testSet = new testSet();
 
@@ -57,7 +57,7 @@ not ok 2
 
 If you understood about how tap4j works, reading a TAP Stream will be quite easy for you. You just have to create a TAP Consumer using guess what? Yeah, a [TapConsumerFactory](http://tap4j.sourceforge.net/apidocs/org/tap4j/consumer/TapConsumerFactory.html). The method of the TAP Consumer to load TAP is load(). This method will return a [TestSet](http://tap4j.sourceforge.net/apidocs/org/tap4j/model/TestSet.html). Let's read the output from the previous section.
 
-```
+```java
 TapConsumer tapConsumer = TapConsumerFactory.makeTap13Consumer();
 String tapStream = "1..2\n" +
 		"ok 1\n" +
