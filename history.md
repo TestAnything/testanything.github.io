@@ -6,6 +6,17 @@ title: TAP History
 # TAP History
 Andy Lester thought that the thing we now know as TAP needed a name. (See [How TAP was named](/How_TAP_was_named.html)) The name is relatively recent but the protocol has been around since 1988.
 
+## TAP Namespace Nonproliferation Treaty
+
+TAP has roots from the Perl programming language. Due to conficting namespaces
+in that language, many Perl TAP authors signed a "nonproliferation treaty"
+with the intent to reduce namespace conflicts.
+
+The vast range of programming languages makes the treaty difficult to
+enforce across the TAP ecosystem. The
+[original treaty page](/namespace-nonproliferation-treaty.html)
+is included on this history page for posterity.
+
 ## Historical Versions
 
 Pulling apart the historical revisions of TAP is difficult both because there was no standard and because t/TEST in the perl core and Test::Harness parse slightly different dialects of TAP. Here's the best we can piece together right now. This information comes from Sam Villan's historical Perl GIT repository.

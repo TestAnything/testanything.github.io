@@ -485,7 +485,3 @@ testing with the ability to produce TAP reports.
 
 **[Xperior](https://github.com/Xyratex/xperior)** is a system for testing
 distributed filesystems. Xperior can output TAP test results.
-
-### Non Proliferation
-
-TAP producer authors should be aware of (and hopefully sign) the [TAP Namespace Nonproliferation Treaty](/namespace-nonproliferation-treaty.html)
