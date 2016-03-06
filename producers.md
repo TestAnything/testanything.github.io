@@ -16,6 +16,7 @@ Languages:
 [C++](#cplusplus),
 [C#](#csharp),
 [Common Lisp](#common-lisp),
+[Elixir](#elixir),
 [Erlang](#erlang),
 [Fish](#fish),
 [Forth](#forth),
@@ -129,6 +130,18 @@ structured test data to TAP output.
 designed to provide a common interface for Unit testing output.
 Currently, it supports TAP version 12 and xUnit style output.
 It is available via [Quicklisp](http://www.quicklisp.org/).
+
+## <a id="elixir"></a> [Elixir](#elixir)
+
+> Elixir is a dynamic, functional language designed for building scalable 
+> and maintainable applications.
+>
+> *From [elixir-lang.org](http://elixir-lang.org/)*
+
+**[Spout](https://github.com/Stratus3D/spout)** is a ExUnit formatter that 
+generates TAP output for existing ExUnit test suites. Spout provides
+a simple way to generate TAP output without having to modify existing
+test code. Based on CTTAP.
 
 ## <a id="erlang"></a> [Erlang](#erlang)
 
