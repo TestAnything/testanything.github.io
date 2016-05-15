@@ -22,8 +22,20 @@ and
 
 ## <a id="c"></a> [C](#c)
 
-- [C Tap Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)
-- [YACC parser](https://github.com/ligurio/tap-parser)
+> C is an imperative (procedural) language. It was designed to be compiled
+> using a relatively straightforward compiler, to provide low-level access
+> to memory, to provide language constructs that map efficiently to machine
+> instructions, and to require minimal run-time support.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/C_%28programming_language%29)*
+
+**[C TAP Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)** is a
+TAP library that implments much of the
+[Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
+specific test functions.
+
+**[tap-parser](https://github.com/ligurio/tap-parser)** is a TAP parser
+written with YACC and Lex.
 
 ## <a id="java"></a> [Java](#java)
 
