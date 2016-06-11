@@ -403,13 +403,15 @@ module that produces a TAP stream instead of the normal output.
 **[PyTAP](https://github.com/rjbs/pytap)** is a port of
 [Test::Simple](http://perldoc.perl.org/Test/Simple.html) to Python.
 
+**[pytest-tap](https://github.com/python-tap/pytest-tap)**
+is a plugin for [pytest](http://pytest.org/latest/) that outputs TAP.
+
 **[tappy](http://tappy.readthedocs.org/en/latest/)**
 provides tools for working with TAP in Python.
 It includes modules to work with
 [`unittest`](https://docs.python.org/3/library/unittest.html)
-and plugins that output TAP for
-[nose](https://nose.readthedocs.org/en/latest/) and
-[pytest](http://pytest.org/latest/).
+and a plugin that outputs TAP for
+[nose](https://nose.readthedocs.org/en/latest/).
 
 ## <a id="ruby"></a> [Ruby](#ruby)
 
