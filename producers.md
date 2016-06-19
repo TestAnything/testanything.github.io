@@ -400,6 +400,9 @@ fully decorated TAP from Python
 It also includes a [`unittest`](https://docs.python.org/3/library/unittest.html)
 module that produces a TAP stream instead of the normal output.
 
+**[nose-tap](https://github.com/python-tap/nose-tap)**
+is a plugin for [nose](http://nose.readthedocs.io/en/latest/) that outputs TAP.
+
 **[PyTAP](https://github.com/rjbs/pytap)** is a port of
 [Test::Simple](http://perldoc.perl.org/Test/Simple.html) to Python.
 
@@ -408,10 +411,8 @@ is a plugin for [pytest](http://pytest.org/latest/) that outputs TAP.
 
 **[tappy](http://tappy.readthedocs.org/en/latest/)**
 provides tools for working with TAP in Python.
-It includes modules to work with
-[`unittest`](https://docs.python.org/3/library/unittest.html)
-and a plugin that outputs TAP for
-[nose](https://nose.readthedocs.org/en/latest/).
+It includes a module to work with
+[`unittest`](https://docs.python.org/3/library/unittest.html).
 
 ## <a id="ruby"></a> [Ruby](#ruby)
 
