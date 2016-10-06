@@ -68,6 +68,12 @@ TAP library that implments much of the
 [Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
 specific test functions.
 
+**[GLib](https://git.gnome.org/browse/glib/)** is a
+low-level core library for projects such as GTK+ and GNOME.
+Tests built with [GLib's test
+framework](https://developer.gnome.org/glib/stable/glib-Testing.html)
+produce TAP version 12 when run with the `--tap` option.
+
 **[libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
 TAP version 12 producer for C.
 
