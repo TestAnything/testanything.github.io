@@ -18,7 +18,7 @@ Here are some links to some of them; all of these use the Test Anything Protocol
 
 -    [TAP::Harness](https://metacpan.org/pod/TAP::Harness)
 
-[TAP::Parser Cookbook](/testing-with-tap/perl/tap::parser-cookbook.html) - Cooking with TAP
+[TAP::Parser Cookbook](/testing-with-tap/perl/tap-parser-cookbook.html) - Cooking with TAP
 
 ## Testing with Perl 6
 
