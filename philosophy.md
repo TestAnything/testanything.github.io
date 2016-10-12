@@ -5,7 +5,7 @@ title: TAP Philosophy
 
 # TAP Philosophy
 
-##Universal desirable behaviors for parsers
+## Universal desirable behaviors for parsers
 
 These are behaviors desired in all TAP parsers:
 
