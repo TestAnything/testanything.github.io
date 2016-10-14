@@ -504,6 +504,9 @@ procedural extension for SQL.
 **[TypeSpec](https://github.com/Steve-Fenton/TypeSpec)** is a BDD framework
 for TypeScript with a built-in TapReporter class for TAP compliant output.
 
+**[alsatian](https://github.com/alsatian-test/alsatian)** is a unit testing
+framework which supports test cases and outputs TAP output.
+
 ## <a id="frameworks"></a> [Test frameworks](#frameworks)
 
 Some test frameworks solve problems that are not specific to a programming
