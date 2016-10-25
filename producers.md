@@ -431,6 +431,8 @@ It includes a module to work with
 **[Bacon](http://github.com/chneukirchen/bacon)** is a small
 [RSpec](http://rspec.info/) clone that supports TAP output.
 
+**[RSpec TAP](https://github.com/appleton/rspec_tap)** is a formatter for [RSpec](http://rspec.info/) which outputs TAP.
+
 ## <a id="sass"></a> [Sass](#sass)
 
 > Sass is the most mature, stable, and powerful professional grade CSS
