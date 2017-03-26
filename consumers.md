@@ -24,6 +24,7 @@ and
 
 - [C Tap Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)
 - [YACC parser](https://github.com/ligurio/tap-parser)
+- [Kate's tapto tool](https://github.com/katef/tapto)
 
 ## <a id="java"></a> [Java](#java)
 
