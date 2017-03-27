@@ -28,7 +28,15 @@ and
 
 ## <a id="java"></a> [Java](#java)
 
-- [tap4j](http://sourceforge.net/projects/tap4j/)
+> Java is a general-purpose computer programming language that is concurrent,
+> class-based, object-oriented, and specifically designed to have as
+> few implementation dependencies as possible.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)*
+
+**[tap4j](http://www.tap4j.org/)** is a full featured TAP library which
+is integrated at the core of other Java projects like the
+[Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
 
 ## <a id="javascript"></a> [JavaScript](#javascript)
 
