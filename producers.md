@@ -20,6 +20,7 @@ Languages:
 [Erlang](#erlang),
 [Fish](#fish),
 [Forth](#forth),
+[Fortran](#fortran),
 [Go](#go),
 [Haskell](#haskell),
 [Java](#java),
@@ -67,6 +68,12 @@ for Ada which produces TAP 12 output.
 TAP library that implments much of the
 [Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
 specific test functions.
+
+**[GLib](https://git.gnome.org/browse/glib/)** is a
+low-level core library for projects such as GTK+ and GNOME.
+Tests built with [GLib's test
+framework](https://developer.gnome.org/glib/stable/glib-Testing.html)
+produce TAP version 12 when run with the `--tap` option.
 
 **[libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
 TAP version 12 producer for C.
@@ -181,6 +188,34 @@ Check out the [Testing with Forth](/testing-with-tap/forth.html) guide.
 
 **[gforth-tap](https://github.com/AndyA/gforth-tap)** is a TAP producer
 for Forth at an alpha level readiness.
+
+## <a id="fortran"></a> [Fortran](#fortran)
+
+> Fortran (formerly FORTRAN, derived from "Formula Translation")
+> is a general-purpose, imperative programming language that is especially
+> suited to numeric computation and scientific computing. Originally
+> developed by IBM in the 1950s for scientific and engineering
+> applications, Fortran came to dominate this area of programming early on
+> and has been in continuous use for over half a century in computationally
+> intensive areas such as numerical weather prediction, finite element
+> analysis, computational fluid dynamics, computational physics,
+> crystallography and computational chemistry. It is a popular language for
+> high-performance computing and is used for programs that benchmark and
+> rank the world's fastest supercomputers.
+> 
+> Fortran encompasses a lineage of versions, each of which evolved to add
+> extensions to the language while usually retaining compatibility with prior
+> versions. Successive versions have added support for structured programming
+> and processing of character-based data (FORTRAN 77), array programming,
+> modular programming and generic programming (Fortran 90), high performance
+> Fortran (Fortran 95), object-oriented programming (Fortran 2003) and
+> concurrent programming (Fortran 2008).
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/Fortran)*
+
+**[fortran-testanything](https://github.com/dennisdjensen/fortran-testanything)** is a basic TAP producer for Fortran
+(standard 2008TS) with a minimal test harness implementing most of
+the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 
 ## <a id="go"></a> [Go](#go)
 
@@ -400,16 +435,19 @@ fully decorated TAP from Python
 It also includes a [`unittest`](https://docs.python.org/3/library/unittest.html)
 module that produces a TAP stream instead of the normal output.
 
+**[nose-tap](https://github.com/python-tap/nose-tap)**
+is a plugin for [nose](http://nose.readthedocs.io/en/latest/) that outputs TAP.
+
 **[PyTAP](https://github.com/rjbs/pytap)** is a port of
 [Test::Simple](http://perldoc.perl.org/Test/Simple.html) to Python.
 
+**[pytest-tap](https://github.com/python-tap/pytest-tap)**
+is a plugin for [pytest](http://pytest.org/latest/) that outputs TAP.
+
 **[tappy](http://tappy.readthedocs.org/en/latest/)**
 provides tools for working with TAP in Python.
-It includes modules to work with
-[`unittest`](https://docs.python.org/3/library/unittest.html)
-and plugins that output TAP for
-[nose](https://nose.readthedocs.org/en/latest/) and
-[pytest](http://pytest.org/latest/).
+It includes a module to work with
+[`unittest`](https://docs.python.org/3/library/unittest.html).
 
 ## <a id="ruby"></a> [Ruby](#ruby)
 
@@ -421,6 +459,8 @@ and plugins that output TAP for
 
 **[Bacon](http://github.com/chneukirchen/bacon)** is a small
 [RSpec](http://rspec.info/) clone that supports TAP output.
+
+**[RSpec TAP](https://github.com/appleton/rspec_tap)** is a formatter for [RSpec](http://rspec.info/) which outputs TAP.
 
 ## <a id="sass"></a> [Sass](#sass)
 

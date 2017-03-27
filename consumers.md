@@ -37,9 +37,20 @@ specific test functions.
 **[tap-parser](https://github.com/ligurio/tap-parser)** is a TAP parser
 written with YACC and Lex.
 
+**[tapto](https://github.com/katef/tapto)** is a TAP parser that formats
+results to XML and other formats.
+
 ## <a id="java"></a> [Java](#java)
 
-- [tap4j](http://sourceforge.net/projects/tap4j/)
+> Java is a general-purpose computer programming language that is concurrent,
+> class-based, object-oriented, and specifically designed to have as
+> few implementation dependencies as possible.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)*
+
+**[tap4j](http://www.tap4j.org/)** is a full featured TAP library which
+is integrated at the core of other Java projects like the
+[Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
 
 ## <a id="javascript"></a> [JavaScript](#javascript)
 
@@ -69,15 +80,3 @@ written with YACC and Lex.
 - [Desktop notifications](https://github.com/ryandoyle/shouldertap)
 - Automake 1.13+ can [run TAP tests](https://www.gnu.org/software/automake/manual/html_node/Using-the-TAP-test-protocol.html#Using-the-TAP-test-protocol) for `make check`, via `tap-driver.sh`.
 - [Kyua](https://github.com/jmmv/kyua) Testing framework for infrastructure software.
-
-
-## Universal desirable behaviors
-
-- These are behaviors desired in all TAP parsers.
-- Should work on the TAP as a stream (ie. as each line is received) rather than wait until all the TAP is received.
-- The TAP source should be pluggable (ie. don't assume its always coming from a Perl program).
-- The TAP display should be pluggable.
-- Should be able to gracefully handle future upgrades to TAP.
-- Should be forward compatible.
-  - Ignore unknown directives
-  - Ignore any unparsable lines
