@@ -3,8 +3,7 @@ layout: default
 title: TAP specification
 ---
 
-# TAP specification
-## NAME
+# NAME
 
 TAP - The Test Anything Protocol
 
