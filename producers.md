@@ -513,7 +513,7 @@ for SQL PL routines that runs in IBM
 [DB2 LUW](http://www-01.ibm.com/software/data/db2/linux-unix-windows/) and
 produces TAP version 13 output.
 
-**[MyTAP](http://theory.github.io/mytap/)** is a suite of database functions
+**[MyTAP](http://hepabolu.github.io/mytap/)** is a suite of database functions
 that make it easy to write TAP-emitting unit tests in mysql scripts.
 
 **[pgTAP](http://pgtap.org/)** is a suite of database functions
