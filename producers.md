@@ -29,6 +29,7 @@ Languages:
 [Lua](#lua),
 [MATLAB](#matlab),
 [OCaml](#ocaml),
+[Omnis Studio](#omnis-studio),
 [Pascal](#pascal),
 [Perl](#perl),
 [PHP](#php),
@@ -342,6 +343,17 @@ framework that produces output in the TAP version 12 format.
 
 **[TestSimple](https://github.com/hcarty/ocaml-testsimple)** is a simple
 unit testing framework based on Perl's very successful Test::\* modules.
+
+## <a id="omnis-studio"></a> [Omnis Studio](#omnis-studio)
+
+> Omnis Studio is a powerful development environment that lets you deploy apps
+> to virtually any device, on any platform, including tablets, smartphones,
+> and desktop computers.
+> 
+> *From [omnis.net](http://omnis.net)*
+
+**[OmnisTAP](https://github.com/suransys/omnistap) is a TAP-compliant unit-testing
+framework for Omnis Studio.
 
 ## <a id="pascal"></a> [Pascal](#pascal)
 
