@@ -407,6 +407,9 @@ testing frameworks and supports logging TAP.
 **[SimpleTest TAP reporter](http://digitalsandwich.com/Updated-Simpletest+Apache-Test/)**
 is a TAP producer for [SimpleTest](http://www.simpletest.org/).
 
+**[Lens](http://lens.guide/)**
+is a PHP unit-testing framework with readable tests that catch everything.
+
 **[SnapTest](http://www.snaptest.net/)** is a powerful unit testing framework
 for PHP 5+, leveraging PHP's unique runtime language to simplify the unit
 test process without sacrificing the agility tests provide. It has a built-in
