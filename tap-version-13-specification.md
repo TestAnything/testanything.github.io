@@ -77,7 +77,7 @@ TAP version 13
 
 ### The plan
 The plan tells how many tests will be run, or how many tests have run. It's a check that the test file hasn't stopped prematurely. It must appear once, whether at the beginning or end of the output.
-The plan is usually the first line of TAP output (although in future there may be a version line before it) and it specifies how many test points are to follow. For example,
+The plan is usually the second line of TAP output right after the version line, and it specifies how many test points are to follow. For example,
 
 ```
 1..10
