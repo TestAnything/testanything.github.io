@@ -4,7 +4,7 @@ title: TAP History
 ---
 
 # TAP History
-Andy Lester thought that the thing we now know as TAP needed a name. (See [How TAP was named](/How_TAP_was_named.html)) The name is relatively recent but the protocol has been around since 1988.
+The protocol has been around since 1988.
 
 ## TAP Namespace Nonproliferation Treaty
 
