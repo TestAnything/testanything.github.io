@@ -268,6 +268,8 @@ is integrated at the core of other Java projects like the
 **[AVA](https://github.com/sindresorhus/ava)** an asynchronous test framework
 combining plans and tests and has an optional TAP reporter.
 
+**[BaseT](https://github.com/Igmat/baset)** a test tool that implements Baseline Strategy (very close to snapshot testing) with TAP output ([tap diff](https://github.com/axross/tap-diff) is default reporter).
+
 **[BusterJS](http://busterjs.org)** is a JavaScript testing toolkit for
 both [Node.js][node] and browsers that comes with a
 [TAP reporter](http://docs.busterjs.org/en/latest/overview/#reporters).
