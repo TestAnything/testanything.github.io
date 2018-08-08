@@ -64,7 +64,7 @@ not ok 4 - Summarized correctly # TODO Not written yet
 ## HARNESS BEHAVIOR
 
 In this document, the "harness" is any program analyzing TAP output. Typically this will be Perl's runtests program, or the underlying TAP::Harness-runtests> method.
-A harness must only read TAP output from standard output and not from standard error. Lines written to standard output matching /^(not )?ok\b/ must be interpreted as test lines. After a test line a block of lines starting with '---' and ending with '...' will be interpreted as an inline YAML document providing extended diagnostic information about the preceding test. All other lines must not be considered test output.
+A harness must only read TAP output from standard output and not from standard error. Lines written to standard output matching `/^(not )?ok\b/` must be interpreted as test lines. After a test line a block of lines starting with '---' and ending with '...' will be interpreted as an inline YAML document providing extended diagnostic information about the preceding test. All other lines must not be considered test output.
 
 ## TESTS LINES AND THE PLAN
 
@@ -92,7 +92,7 @@ The core of TAP is the test line. A test file prints one test line test point ex
 
 -    ok or not ok
 
-This tells whether the test point passed or failed. It must be at the beginning of the line. /^not ok/ indicates a failed test point. /^ok/ is a successful test point. This is the only mandatory part of the line.
+This tells whether the test point passed or failed. It must be at the beginning of the line. `/^not ok/` indicates a failed test point. `/^ok/` is a successful test point. This is the only mandatory part of the line.
 Note that unlike the Directives below, ok and not ok are case-sensitive.
 
 -    Test number
@@ -135,7 +135,7 @@ To summarize:
 -    Directive (only when necessary)
 
 ### YAML blocks
-If the test line is immediately followed by an indented block beginning with /^\s+---/ and ending with \^\s+.../ that block will be interpreted as an inline YAML document. The YAML encodes a data structure that provides more detailed information about the preceding test.
+If the test line is immediately followed by an indented block beginning with `/^\s+---/` and ending with `/^\s+.../` that block will be interpreted as an inline YAML document. The YAML encodes a data structure that provides more detailed information about the preceding test.
 The YAML document is indented to make it visually distinct from the surrounding test results and to make it easier for the parser to recover if the trailing '...' terminator is missing.
 For example:
 
