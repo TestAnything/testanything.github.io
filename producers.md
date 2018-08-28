@@ -214,11 +214,11 @@ for Forth at an alpha level readiness.
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/Fortran)*
 
+**[fortran-tap](https://github.com/gzahl/tap)** is a minimal producer implementation of the "Test Anything Protocol" (TAP) in Fortran 90 and the c preprocessor. Just copy two files to your project and start testing.
+
 **[fortran-testanything](https://github.com/dennisdjensen/fortran-testanything)** is a basic TAP producer for Fortran
 (standard 2008TS) with a minimal test harness implementing most of
 the [Test::More](http://perldoc.perl.org/Test/More.html) API.
-
-**[fortran-tap](https://github.com/gzahl/tap)** is a minimal producer implementation of the "Test Anything Protocol" (TAP) in Fortran 90 and the c preprocessor. Just copy two files to your project and start testing.
 
 ## <a id="go"></a> [Go](#go)
 
