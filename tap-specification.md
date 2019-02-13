@@ -64,7 +64,7 @@ In certain instances a test file may not know how many test points it will ultim
 The plan cannot appear in the middle of the output, nor can it appear more than once.
 
 ### The test line
-The core of TAP is the test line. A test file prints one test line test point executed. There must be at least one test line in TAP output. Each test line comprises the following elements:
+The core of TAP is the test line. A test file prints one test line per test point executed. There must be at least one test line in TAP output. Each test line comprises the following elements:
 
 -    ok or not ok
 
