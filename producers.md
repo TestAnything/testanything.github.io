@@ -554,7 +554,7 @@ procedural extension for SQL.
 **[alsatian](https://github.com/alsatian-test/alsatian)** is a unit testing
 framework which supports test cases and outputs TAP output.
 
-**[Testy.Ts](https://github.com/Testy/TestyTs)** is a modern TypeScript testing framework with a build-in TAP reporter.
+**[Testy.Ts](https://github.com/Testy/TestyTs)** is a modern TypeScript testing framework with a built-in TAP reporter.
 
 **[TypeSpec](https://github.com/Steve-Fenton/TypeSpec)** is a BDD framework
 for TypeScript with a built-in TapReporter class for TAP compliant output.
