@@ -23,6 +23,7 @@ Languages:
 [Fortran](#fortran),
 [Go](#go),
 [Haskell](#haskell),
+[Igor Pro](#igorpro),
 [Java](#java),
 [JavaScript](#javascript),
 [Limbo](#limbo),
@@ -141,12 +142,12 @@ It is available via [Quicklisp](http://www.quicklisp.org/).
 
 ## <a id="elixir"></a> [Elixir](#elixir)
 
-> Elixir is a dynamic, functional language designed for building scalable 
+> Elixir is a dynamic, functional language designed for building scalable
 > and maintainable applications.
 >
 > *From [elixir-lang.org](http://elixir-lang.org/)*
 
-**[Spout](https://github.com/Stratus3D/spout)** is a ExUnit formatter that 
+**[Spout](https://github.com/Stratus3D/spout)** is a ExUnit formatter that
 generates TAP output for existing ExUnit test suites. Spout provides
 a simple way to generate TAP output without having to modify existing
 test code. Based on CTTAP.
@@ -158,7 +159,7 @@ test code. Based on CTTAP.
 >
 > *From [erlang.org](http://www.erlang.org/)*
 
-**[CTTAP](https://github.com/Stratus3D/cttap)** is a Common Test hook that 
+**[CTTAP](https://github.com/Stratus3D/cttap)** is a Common Test hook that
 generates TAP output for existing Common Test test suites. CTTAP provides
 a simple way to generate TAP output without having to modify existing
 test code.
@@ -203,7 +204,7 @@ for Forth at an alpha level readiness.
 > crystallography and computational chemistry. It is a popular language for
 > high-performance computing and is used for programs that benchmark and
 > rank the world's fastest supercomputers.
-> 
+>
 > Fortran encompasses a lineage of versions, each of which evolved to add
 > extensions to the language while usually retaining compatibility with prior
 > versions. Successive versions have added support for structured programming
@@ -243,6 +244,16 @@ that implements most of the
 **[tasty-tap](https://github.com/michaelxavier/tasty-tap)** is a TAP producer
 used with the [Tasty](http://documentup.com/feuerbach/tasty) Haskell
 test framework.
+
+## <a id="igorpro"></a> [Igor Pro](#igorpro)
+
+> IGOR Pro is a scientific data analysis software, numerical computing
+> environment and programming language.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/IGOR_Pro)*
+
+**[Igor UTF](https://github.com/byte-physics/igor-unit-testing-framework)** is
+a test harness and can output its results in TAP format.
 
 ## <a id="java"></a> [Java](#java)
 
@@ -353,7 +364,7 @@ unit testing framework based on Perl's very successful Test::\* modules.
 > Omnis Studio is a powerful development environment that lets you deploy apps
 > to virtually any device, on any platform, including tablets, smartphones,
 > and desktop computers.
-> 
+>
 > *From [omnis.net](http://omnis.net)*
 
 **[OmnisTAP](https://github.com/suransys/omnistap) is a TAP-compliant unit-testing
