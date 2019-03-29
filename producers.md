@@ -23,6 +23,7 @@ Languages:
 [Fortran](#fortran),
 [Go](#go),
 [Haskell](#haskell),
+[Igor Pro](#igorpro),
 [Java](#java),
 [JavaScript](#javascript),
 [Limbo](#limbo),
@@ -243,6 +244,16 @@ that implements most of the
 **[tasty-tap](https://github.com/michaelxavier/tasty-tap)** is a TAP producer
 used with the [Tasty](http://documentup.com/feuerbach/tasty) Haskell
 test framework.
+
+## <a id="igorpro"></a> [Igor Pro](#igorpro)
+
+> IGOR Pro is a scientific data analysis software, numerical computing
+> environment and programming language.
+>
+> *From [Wikipedia](https://en.wikipedia.org/wiki/IGOR_Pro)*
+
+**[Igor UTF](https://github.com/byte-physics/igor-unit-testing-framework)** is
+a test harness and can output its results in TAP format.
 
 ## <a id="java"></a> [Java](#java)
 
