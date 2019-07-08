@@ -407,6 +407,15 @@ There are more ambitious Perl modules out there, such as
 [Test::More](http://perldoc.perl.org/Test/More.html) and
 [Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
 
+**[Test2 suite](https://metacpan.org/release/Test2-Suite)** is a faster and
+richer Perl library written to replace the old test suite.
+[Test::More](http://perldoc.perl.org/Test/More.html) was rewritten from scratch
+over it. See the [Chad Granum - "Better Testing with Test2-Suite"](https://www.youtube.com/watch?v=JsZw8P_PCUg) video from ["The Perl Conference 2019"](https://perlconference.us/tpc-2019-pit/).
+
+
+
+
+
 ## <a id="php"></a> [PHP](#php)
 
 > PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
