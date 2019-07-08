@@ -410,10 +410,10 @@ There are more ambitious Perl modules out there, such as
 [Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
 
 **[Test2 suite](https://metacpan.org/release/Test2-Suite)** is a faster and
-ryicher Perl library written to replace the old test suite.
+richer Perl library written to replace the old test suite.
 [Test::More](http://perldoc.perl.org/Test/More.html) was rewritten from scratch over it. See the [Chad Granum - "Better Testing with Test2-Suite"](https://www.youtube.com/watch?v=JsZw8P_PCUg) video from ["The Perl Conference 2019"](https://perlconference.us/tpc-2019-pit/).
 
-## <a id="perl6"></a> [Perl6](#perl6) (also known as Raku)
+## <a id="perl6"></a> [Perl6](#perl6)
 
 > "In Perl 6, we decided it would be better to fix the language than fix the user."
 > — Larry Wall
@@ -556,7 +556,7 @@ Since all tests output TAP, they can be run with any TAP harness.
 turns bash scripts into TAP test scripts.
 
 **[uze TAP](https://github.com/zsh-uze/devel-tap)** is a [zsh](http://www.zsh.org)
-library that provide helpers similar to the
+library that provides helpers similar to the
 [Test2 suite](https://metacpan.org/release/Test2-Suite).
 This module is a part of the [uze](http://zsh-uze.github.io/) ecosystem.
 
