@@ -32,11 +32,13 @@ Languages:
 [OCaml](#ocaml),
 [Omnis Studio](#omnis-studio),
 [Pascal](#pascal),
-[Perl](#perl),
+[Perl5](#perl5),
+[Perl6](#perl6),
 [PHP](#php),
 [Prolog](#prolog),
 [Python](#python),
 [Ruby](#ruby),
+[Rust](#rust),
 [Sass](#sass),
 [Shell](#shell),
 [SQL](#sql),
@@ -67,7 +69,7 @@ for Ada which produces TAP 12 output.
 > *From [Wikipedia](https://en.wikipedia.org/wiki/C_%28programming_language%29)*
 
 **[C TAP Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)** is a
-TAP library that implments much of the
+TAP library that implements much of the
 [Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
 specific test functions.
 
@@ -383,7 +385,7 @@ framework for Omnis Studio.
 is a very easy-to-use, but powerful unit testing suite for Pascal
 (FreePascal, Turbo Pascal, et al), conforming to the TAP specification.
 
-## <a id="perl"></a> [Perl](#perl)
+## <a id="perl5"></a> [Perl5](#perl5)
 
 > Perl is a general-purpose programming language originally developed for
 > text manipulation and now used for a wide range of tasks including
@@ -406,6 +408,17 @@ library with an emphasis placed on simplicity.
 There are more ambitious Perl modules out there, such as
 [Test::More](http://perldoc.perl.org/Test/More.html) and
 [Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
+
+**[Test2 suite](https://metacpan.org/release/Test2-Suite)** is a faster and
+richer Perl library written to replace the old test suite.
+[Test::More](http://perldoc.perl.org/Test/More.html) was rewritten from scratch over it. See the [Chad Granum - "Better Testing with Test2-Suite"](https://www.youtube.com/watch?v=JsZw8P_PCUg) video from ["The Perl Conference 2019"](https://perlconference.us/tpc-2019-pit/).
+
+## <a id="perl6"></a> [Perl6](#perl6)
+
+> "In Perl 6, we decided it would be better to fix the language than fix the user."
+> — Larry Wall
+
+**[prove6](https://modules.perl6.org/dist/App::Prove6:cpan:LEONT/META6.json)** is the perl5 `prove` command. it is based on the [perl6 TAP library](https://modules.perl6.org/dist/TAP:cpan:LEONT). Both are maintained by [Leont](https://modules.perl6.org/search/?q=author%3A%22LEONT%22). There is also a [Test::Builder](https://github.com/perl6-community-modules/p6-test-builder) project by another author.
 
 ## <a id="php"></a> [PHP](#php)
 
@@ -492,6 +505,18 @@ It includes a module to work with
 
 **[RSpec TAP](https://github.com/appleton/rspec_tap)** is a formatter for [RSpec](http://rspec.info/) which outputs TAP.
 
+## <a id="rust"></a> [Rust](#rust)
+
+> Rust is a multi-paradigm system programming language focused on safety,
+> especially safe concurrency. Rust is syntactically similar to C++,
+> but is designed to provide better memory safety while maintaining high
+> performance.
+>
+> *according to [wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))*
+
+[testanything](https://crates.io/crates/testanything) is a TAP producer for the
+[Rust](http://rust-lang.org/) programming langage.
+
 ## <a id="sass"></a> [Sass](#sass)
 
 > Sass is the most mature, stable, and powerful professional grade CSS
@@ -529,6 +554,11 @@ Since all tests output TAP, they can be run with any TAP harness.
 
 **[Tapper-autoreport](https://github.com/tapper/Tapper-autoreport)**
 turns bash scripts into TAP test scripts.
+
+**[uze TAP](https://github.com/zsh-uze/devel-tap)** is a [zsh](http://www.zsh.org)
+library that provides helpers similar to the
+[Test2 suite](https://metacpan.org/release/Test2-Suite).
+This module is a part of the [uze](http://zsh-uze.github.io/) ecosystem.
 
 ## <a id="sql"></a> [SQL](#sql)
 
