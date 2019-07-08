@@ -67,7 +67,7 @@ for Ada which produces TAP 12 output.
 > *From [Wikipedia](https://en.wikipedia.org/wiki/C_%28programming_language%29)*
 
 **[C TAP Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)** is a
-TAP library that implments much of the
+TAP library that implements much of the
 [Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
 specific test functions.
 
