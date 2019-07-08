@@ -500,7 +500,7 @@ It includes a module to work with
 
 **[RSpec TAP](https://github.com/appleton/rspec_tap)** is a formatter for [RSpec](http://rspec.info/) which outputs TAP.
 
-## <a id="ruby"></a> [Rust](#rust)
+## <a id="rust"></a> [Rust](#rust)
 
 > Rust is a multi-paradigm system programming language focused on safety,
 > especially safe concurrency. Rust is syntactically similar to C++,
