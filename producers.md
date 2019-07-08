@@ -37,6 +37,7 @@ Languages:
 [Prolog](#prolog),
 [Python](#python),
 [Ruby](#ruby),
+[Rust](#rust),
 [Sass](#sass),
 [Shell](#shell),
 [SQL](#sql),
@@ -500,6 +501,17 @@ It includes a module to work with
 [RSpec](http://rspec.info/) clone that supports TAP output.
 
 **[RSpec TAP](https://github.com/appleton/rspec_tap)** is a formatter for [RSpec](http://rspec.info/) which outputs TAP.
+
+## <a id="ruby"></a> [Rust](#rust)
+
+> Rust is a multi-paradigm system programming language focused on safety,
+> especially safe concurrency. Rust is syntactically similar to C++,
+> but is designed to provide better memory safety while maintaining high
+> performance.
+>
+> *according to [wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))*
+
+[testanything](https://crates.io/crates/testanything) is a TAP producer for the [rust](http://rust-lang.org/) programming langage.
 
 ## <a id="sass"></a> [Sass](#sass)
 
