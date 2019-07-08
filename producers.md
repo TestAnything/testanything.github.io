@@ -410,9 +410,7 @@ There are more ambitious Perl modules out there, such as
 
 **[Test2 suite](https://metacpan.org/release/Test2-Suite)** is a faster and
 richer Perl library written to replace the old test suite.
-[Test::More](http://perldoc.perl.org/Test/More.html) was rewritten from scratch
-over it. See the [Chad Granum - "Better Testing with Test2-Suite"](https://www.youtube.com/watch?v=JsZw8P_PCUg) video from ["The Perl Conference 2019"](https://perlconference.us/tpc-2019-pit/).
-
+[Test::More](http://perldoc.perl.org/Test/More.html) was rewritten from scratch over it. See the [Chad Granum - "Better Testing with Test2-Suite"](https://www.youtube.com/watch?v=JsZw8P_PCUg) video from ["The Perl Conference 2019"](https://perlconference.us/tpc-2019-pit/).
 
 
 
@@ -511,7 +509,8 @@ It includes a module to work with
 >
 > *according to [wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))*
 
-[testanything](https://crates.io/crates/testanything) is a TAP producer for the [rust](http://rust-lang.org/) programming langage.
+[testanything](https://crates.io/crates/testanything) is a TAP producer for the
+[Rust](http://rust-lang.org/) programming langage.
 
 ## <a id="sass"></a> [Sass](#sass)
 
@@ -551,7 +550,10 @@ Since all tests output TAP, they can be run with any TAP harness.
 **[Tapper-autoreport](https://github.com/tapper/Tapper-autoreport)**
 turns bash scripts into TAP test scripts.
 
-**[uze TAP](https://github.com/zsh-uze/devel-tap)** is a [zsh](http://www.zsh.org) provide helpers similar to the [Test2 suite](https://metacpan.org/release/Test2-Suite). This module is a part of the [uze](http://zsh-uze.github.io/) ecosystem.
+**[uze TAP](https://github.com/zsh-uze/devel-tap)** is a [zsh](http://www.zsh.org)
+library that provide helpers similar to the
+[Test2 suite](https://metacpan.org/release/Test2-Suite).
+This module is a part of the [uze](http://zsh-uze.github.io/) ecosystem.
 
 ## <a id="sql"></a> [SQL](#sql)
 
