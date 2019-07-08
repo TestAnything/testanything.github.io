@@ -530,6 +530,8 @@ Since all tests output TAP, they can be run with any TAP harness.
 **[Tapper-autoreport](https://github.com/tapper/Tapper-autoreport)**
 turns bash scripts into TAP test scripts.
 
+**[uze TAP](https://github.com/zsh-uze/devel-tap)** is a [zsh](http://www.zsh.org) provide helpers similar to the [Test2 suite](https://metacpan.org/release/Test2-Suite). This module is a part of the [uze](http://zsh-uze.github.io/) ecosystem.
+
 ## <a id="sql"></a> [SQL](#sql)
 
 > SQL (Structured Query Language) is a special-purpose programming language
