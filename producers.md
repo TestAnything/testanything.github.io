@@ -32,7 +32,8 @@ Languages:
 [OCaml](#ocaml),
 [Omnis Studio](#omnis-studio),
 [Pascal](#pascal),
-[Perl](#perl),
+[Perl5](#perl5),
+[Perl6](#perl6),
 [PHP](#php),
 [Prolog](#prolog),
 [Python](#python),
@@ -384,7 +385,7 @@ framework for Omnis Studio.
 is a very easy-to-use, but powerful unit testing suite for Pascal
 (FreePascal, Turbo Pascal, et al), conforming to the TAP specification.
 
-## <a id="perl"></a> [Perl](#perl)
+## <a id="perl5"></a> [Perl5](#perl5)
 
 > Perl is a general-purpose programming language originally developed for
 > text manipulation and now used for a wide range of tasks including
@@ -409,11 +410,15 @@ There are more ambitious Perl modules out there, such as
 [Test::Unit](http://search.cpan.org/perldoc?Test%3A%3AUnit).
 
 **[Test2 suite](https://metacpan.org/release/Test2-Suite)** is a faster and
-richer Perl library written to replace the old test suite.
+ryicher Perl library written to replace the old test suite.
 [Test::More](http://perldoc.perl.org/Test/More.html) was rewritten from scratch over it. See the [Chad Granum - "Better Testing with Test2-Suite"](https://www.youtube.com/watch?v=JsZw8P_PCUg) video from ["The Perl Conference 2019"](https://perlconference.us/tpc-2019-pit/).
 
+## <a id="perl6"></a> [Perl6](#perl6) (also known as Raku)
 
+> "In Perl 6, we decided it would be better to fix the language than fix the user."
+> — Larry Wall
 
+**[prove6](https://modules.perl6.org/dist/App::Prove6:cpan:LEONT/META6.json)** is the perl5 `prove` command. it is based on the [perl6 TAP library](https://modules.perl6.org/dist/TAP:cpan:LEONT). Both are maintained by [Leont](https://modules.perl6.org/search/?q=author%3A%22LEONT%22). There is also a [Test::Builder](https://github.com/perl6-community-modules/p6-test-builder) project by another author.
 
 ## <a id="php"></a> [PHP](#php)
 
