@@ -68,8 +68,13 @@ for Ada which produces TAP 12 output.
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/C_%28programming_language%29)*
 
-The **[cmocka](https://cmocka.org/)** is a well documented test framework with an
-active community it is probably the better choice.
+**[C TAP Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)** is a
+TAP library that implements much of the
+[Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
+specific test functions.
+
+**[cmocka](https://cmocka.org/)** is an elegant unit testing framework for C
+with support for mock objects.
 
 **[GLib](https://git.gnome.org/browse/glib/)** is a
 low-level core library for projects such as GTK+ and GNOME.
@@ -78,27 +83,18 @@ framework](https://developer.gnome.org/glib/stable/glib-Testing.html)
 produce TAP version 12 when run with the `--tap` option.
 
 **[libtap](http://github.com/zorgnax/libtap)** is another TAP library that
-follows the [Test::More](http://perldoc.perl.org/Test/More.html) API. if you
-want to keep the whole thing minimal, this is a good alternative.
-
-shlomifish libtap fork has
-**[a branch](https://github.com/shlomif/libtap/tree/cmake)** that replace the
-makefile by a cmake support. i don't get it but why not ...
-
-The other libraries listed here are for reference only. If you find a good
-reason to use it, please let us know.
-
-**[C TAP Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)** is a
-TAP library that implements much of the
-[Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
-specific test functions.
-
-**[libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
-TAP version 12 producer for C. Discontinued in favor of libtap.
+follows the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 
 **[MyTAP](http://www.kindahl.net/mytap/doc/)** is another TAP version 12
 producer for C. This library is different from the MyTAP producer for MySQL.
 See [SQL](#sql).
+
+**[shlmoifish libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
+TAP version 12 producer for C. Discontinued in favor of libtap.
+
+The shlomifish libtap fork has
+**[a branch](https://github.com/shlomif/libtap/tree/cmake)** that replaces the
+Makefile with Cmake support.
 
 ## <a id="cplusplus"></a> [C++](#cplusplus)
 
