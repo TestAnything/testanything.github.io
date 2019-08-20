@@ -319,6 +319,8 @@ the browsers and outputs TAP.
 **[Test.Simple](https://github.com/theory/test-simple-js)** is a TAP-emitting
 JavaScript test framework.
 
+**[zora](https://github.com/lorenzofox3/zora)** is a TAP producer with pure ES6 support for node.js and browsers without babel.
+
 [node]: https://nodejs.org/en/
 
 ## <a id="limbo"></a> [Limbo (OS Inferno)](#limbo)
