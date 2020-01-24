@@ -3,6 +3,8 @@ layout: default
 title: TAP specification
 ---
 
+<!-- SPDX-License-Identifier: Artistic-1.0-Perl -->
+
 # NAME
 
 TAP - The Test Anything Protocol
@@ -427,7 +429,7 @@ The basis for the TAP format was created by Larry Wall in the original test scri
 
 Copyright 2003-2006 by Michael G Schwern <schwern@pobox.com>, Andy Lester <andy@petdance.com>.
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
-See [http://www.perl.com/perl/misc/artistic.html](http://www.perl.com/perl/misc/artistic.html).
+See [https://spdx.org/licenses/Artistic-1.0-Perl.html](https://spdx.org/licenses/Artistic-1.0-Perl.html).
 
 ## TODO
 
