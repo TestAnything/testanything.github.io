@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: Artistic-1.0-Perl -->
+
 ---
 layout: default
 title: TAP 13 specification
@@ -366,7 +368,7 @@ The basis for the TAP format was created by Larry Wall in the original test scri
 
 Copyright 2003-2007 by Michael G Schwern <schwern@pobox.com>, Andy Lester <andy@petdance.com>, Andy Armstrong <andy@hexten.net>.
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
-See [http://www.perl.com/perl/misc/artistic.html](http://www.perl.com/perl/misc/artistic.html).
+See [https://spdx.org/licenses/Artistic-1.0-Perl.html](https://spdx.org/licenses/Artistic-1.0-Perl.html).
 
 ## TODO
 
