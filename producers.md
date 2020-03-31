@@ -549,7 +549,7 @@ configurable tool for writing clean and consistent
 **[bash-tap-functions](https://github.com/goozbach/bash-tap-functions)**
 is a TAP-producing Bash libary.
 
-**[Bats](http://github.com/sstephenson/bats)** is a TAP-compliant testing
+**[Bats](https://github.com/bats-core/bats-core)** is a TAP-compliant testing
 framework for Bash. It provides a simple way to verify that the UNIX programs
 you write behave as expected.
 
