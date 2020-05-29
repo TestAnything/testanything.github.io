@@ -231,7 +231,7 @@ for Forth at an alpha level readiness.
 (standard 2008TS) with a minimal test harness implementing most of
 the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 
-## <a id="gambas"></a> [Gambas3](#gambas)
+## <a id="gambas"></a> [Gambas](#gambas)
 
 > Gambas is an open source programming language and rapid application development system (RAD)
 > which empowers a programmer to create a great variety of programs:  From simple scripts and command line applications, 
