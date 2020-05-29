@@ -21,6 +21,7 @@ Languages:
 [Fish](#fish),
 [Forth](#forth),
 [Fortran](#fortran),
+[Gambas](#gambas),
 [Go](#go),
 [Haskell](#haskell),
 [Igor Pro](#igorpro),
@@ -229,6 +230,16 @@ for Forth at an alpha level readiness.
 **[fortran-testanything](https://github.com/dennisdjensen/fortran-testanything)** is a basic TAP producer for Fortran
 (standard 2008TS) with a minimal test harness implementing most of
 the [Test::More](http://perldoc.perl.org/Test/More.html) API.
+
+## <a id="gambas"></a> [Gambas](#gambas)
+
+> Gambas is an open source programming language and rapid application development system (RAD)
+> which empowers a programmer to create a great variety of programs:  From simple scripts and command line applications, 
+> server daemons up to large GUI aplications in Gambas Basic under Linux.
+>
+> *From [gambaswiki.org](http://gambaswiki.org/)*
+
+**[gb.test](http://gambaswiki.org/wiki/comp/gb.test)** is a framework for unittesting which uses TAP as interface.
 
 ## <a id="go"></a> [Go](#go)
 
