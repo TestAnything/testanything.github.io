@@ -21,7 +21,7 @@ Languages:
 [Fish](#fish),
 [Forth](#forth),
 [Fortran](#fortran),
-[Gambas3](#gambas3),
+[Gambas](#gambas),
 [Go](#go),
 [Haskell](#haskell),
 [Igor Pro](#igorpro),
@@ -231,9 +231,9 @@ for Forth at an alpha level readiness.
 (standard 2008TS) with a minimal test harness implementing most of
 the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 
-## <a id="gambas3"></a> [Gambas3](#gambas3)
+## <a id="gambas"></a> [Gambas3](#gambas)
 
-> Gambas3 is an open source programming language and rapid application development system (RAD)
+> Gambas is an open source programming language and rapid application development system (RAD)
 > which empowers a programmer to create a great variety of programs:  From simple scripts and command line applications, 
 > server daemons up to large GUI aplications in Gambas Basic under Linux.
 >
