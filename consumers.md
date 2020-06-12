@@ -13,6 +13,7 @@ grouped by programming language.
 
 Languages:
 [C](#c),
+[Go](#go),
 [Java](#java),
 [JavaScript](#javascript),
 [Perl](#perl),
@@ -39,6 +40,11 @@ written with YACC and Lex.
 
 **[tapto](https://github.com/katef/tapto)** is a TAP parser that formats
 results to XML and other formats.
+
+## <a id="go"></a> [Go](#go)
+
+- [tap13](https://github.com/mpontillo/tap13/) is a TAP parser that translates
+input TAP into structs that can be used for further information processing.
 
 ## <a id="java"></a> [Java](#java)
 
