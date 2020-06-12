@@ -17,6 +17,7 @@ Languages:
 [JavaScript](#javascript),
 [Perl](#perl),
 [Python](#python),
+[Go](#go),
 and
 [Others](#others).
 
@@ -73,6 +74,10 @@ is integrated at the core of other Java projects like the
 ## <a id="python"></a> [Python](#python)
 
 - [tappy](https://pypi.python.org/pypi/tap.py)
+
+## <a id="go"></a> [Go](#go)
+
+- [tap13](https://github.com/mpontillo/tap13/)
 
 ## <a id="others"></a> [Others](#others)
 
