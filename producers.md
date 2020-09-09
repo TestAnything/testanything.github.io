@@ -572,6 +572,10 @@ other test files for example code and use.
 library to write, run, and analyze automated tests for Unix programs.
 Since all tests output TAP, they can be run with any TAP harness.
 
+**[ShellSpec](https://github.com/shellspec/shellspec)** is a full-featured
+BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells,
+has a TAP formatter.
+
 **[Tapper-autoreport](https://github.com/tapper/Tapper-autoreport)**
 turns bash scripts into TAP test scripts.
 
