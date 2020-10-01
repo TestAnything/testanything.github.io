@@ -8,7 +8,7 @@ the simple text based interface for testing modules.
 The goals of this site are to:
 
 -    Structure the site to be a resource for developers
-     -    Move discussion based articles to another place
+     -    Move discussion based articles to another place are available
      -    Keep content up to date with platforms using TAP
 -    Advance specifications to move towards industry standard
 
