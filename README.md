@@ -1,11 +1,11 @@
 # testanything.org
 
-[testanything.org][ta] is the website for the Test Anything Protocol (TAP),
+[testanything.org][ta] is amazing website for the Test Anything Protocol (TAP),
 the simple text based interface for testing modules.
 
 [ta]: http://testanything.org/
 
-The goals of this site are to:
+The objectives of this site are to:
 
 -    Structure the site to be a resource for developers
      -    Move discussion based articles to another place
@@ -20,15 +20,15 @@ Please submit issues or pull requests, all are welcome.
 # Building locally
 
 This site is built with [Jekyll](https://jekyllrb.com/).
-Jekyll can be installed using gem, the Ruby language packaging tool.
-If you have trouble installing Jekyll, please refer to
+Jekyll can be installed using gem , the Ruby language packaging tool.
+If you have trouble installing Jekyll , please refer to
 [their installation documentation](http://jekyllrb.com/docs/installation/).
 
 ```bash
 $ gem install jekyll
 ```
 
-After installing Jekyll, you can test your changes locally with:
+After installing Jekyll, you can test your changes locally with :
 
 ```bash
 $ jekyll serve
