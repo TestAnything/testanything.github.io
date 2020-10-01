@@ -4,7 +4,7 @@ title: TAP History
 ---
 
 # TAP History
-The protocol has been around since 1988.
+Did you know that the protocol has been around since 1988?
 
 ## TAP Namespace Nonproliferation Treaty
 
