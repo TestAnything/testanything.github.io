@@ -16,6 +16,7 @@ Languages:
 [C++](#cplusplus),
 [C#](#csharp),
 [Common Lisp](#common-lisp),
+[Crystal](#crystal),
 [Elixir](#elixir),
 [Erlang](#erlang),
 [Fish](#fish),
@@ -149,6 +150,11 @@ structured test data to TAP output.
 designed to provide a common interface for Unit testing output.
 Currently, it supports TAP version 12 and xUnit style output.
 It is available via [Quicklisp](http://www.quicklisp.org/).
+
+## <a id="crystal"></a> [Crystal](#crystal)
+
+**[crystal spec](https://crystal-lang.org/api/Spec.html)** the spec module
+that comes with Crystal's standard library includes a TAP formatter.
 
 ## <a id="elixir"></a> [Elixir](#elixir)
 
