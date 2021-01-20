@@ -44,8 +44,9 @@ Languages:
 [Sass](#sass),
 [Shell](#shell),
 [SQL](#sql),
+[TypeScript](#typescript)
 and
-[TypeScript](#typescript).
+[Zsh](#zsh).
 
 Some test frameworks exist with
 [TAP producers that are not language specific](#frameworks).
@@ -240,7 +241,7 @@ the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 ## <a id="gambas"></a> [Gambas](#gambas)
 
 > Gambas is an open source programming language and rapid application development system (RAD)
-> which empowers a programmer to create a great variety of programs:  From simple scripts and command line applications, 
+> which empowers a programmer to create a great variety of programs:  From simple scripts and command line applications,
 > server daemons up to large GUI aplications in Gambas Basic under Linux.
 >
 > *From [gambaswiki.org](http://gambaswiki.org/)*
@@ -629,6 +630,16 @@ framework which supports test cases and outputs TAP output.
 
 **[TypeSpec](https://github.com/Steve-Fenton/TypeSpec)** is a BDD framework
 for TypeScript with a built-in TapReporter class for TAP compliant output.
+
+## <a id="zsh"></a> [Zsh](#zsh)
+
+> Zsh is a shell designed for interactive use,
+> although it is also a powerful scripting language.
+>
+> *From [zsh.org](https://www.zsh.org)*
+
+**[ZTAP](https://github.com/mattmc3/ztap)** is a TAP producer
+and test harness for Zsh.
 
 ## <a id="frameworks"></a> [Test frameworks](#frameworks)
 
