@@ -21,6 +21,10 @@ Languages:
 and
 [Others](#others).
 
+## <a id="python"></a> [Python](#python)
+
+- [tappy](https://pypi.python.org/pypi/tap.py) is a standalone program suited for use as a viewer; just pipe your TAP source to its standard input.
+
 ## <a id="c"></a> [C](#c)
 
 > C is an imperative (procedural) language. It was designed to be compiled
@@ -75,10 +79,6 @@ is integrated at the core of other Java projects like the
 - [TapTinder](http://dev.taptinder.org/wiki/TapTinder)
 - [metatap](http://search.cpan.org/search?query=metatap)
 - [Tapper test infrastructure](http://tapper-testing.org)
-
-## <a id="python"></a> [Python](#python)
-
-- [tappy](https://pypi.python.org/pypi/tap.py)
 
 ## <a id="others"></a> [Others](#others)
 
