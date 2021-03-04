@@ -27,7 +27,7 @@ and
 
 ## POSIX shell
 
-- [tapview](https://gitlab.com/esr/tapview) is another tiny standalone viewer, one portable shell file with zero dependencies, intended to be ebedded in project test directories.
+- [tapview](https://gitlab.com/esr/tapview) is another tiny standalone viewer, one portable shell file with zero dependencies, intended to be embedded in project test directories.
 
 ## <a id="c"></a> [C](#c)
 
