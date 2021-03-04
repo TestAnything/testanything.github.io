@@ -25,6 +25,10 @@ and
 
 - [tappy](https://pypi.python.org/pypi/tap.py) is a standalone program suited for use as a viewer; just pipe your TAP source to its standard input.
 
+## POSIX shell
+
+- [tapview](https://gitlab.com/esr/tapview) is another tiny standalone viewer, one portable shell file with zero dependencies, intended to be ebedded in project test directories.
+
 ## <a id="c"></a> [C](#c)
 
 > C is an imperative (procedural) language. It was designed to be compiled
