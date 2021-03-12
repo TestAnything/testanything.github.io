@@ -98,12 +98,12 @@ See [SQL](#sql).
 **[shlmoifish libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
 TAP version 12 producer for C. Discontinued in favor of libtap.
 
-**[tap4embedded](https://framagit.org/fperrad/tap4embedded)** is a TAP producer
-library designed for C embedded.
-
 The shlomifish libtap fork has
 **[a branch](https://github.com/shlomif/libtap/tree/cmake)** that replaces the
 Makefile with Cmake support.
+
+**[tap4embedded](https://framagit.org/fperrad/tap4embedded)** is a TAP producer
+library designed for C embedded.
 
 ## <a id="cplusplus"></a> [C++](#cplusplus)
 
