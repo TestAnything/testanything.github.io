@@ -71,6 +71,9 @@ for Ada which produces TAP 12 output.
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/C_%28programming_language%29)*
 
+**[ArduinoTap](https://framagit.org/fperrad/ArduinoTap)** is a C/C++ port of the Perl5 module
+Test::More on Arduino.
+
 **[C TAP Harness](http://www.eyrie.org/~eagle/software/c-tap-harness/)** is a
 TAP library that implements much of the
 [Test::More](http://perldoc.perl.org/Test/More.html) API along with some C
@@ -98,6 +101,9 @@ TAP version 12 producer for C. Discontinued in favor of libtap.
 The shlomifish libtap fork has
 **[a branch](https://github.com/shlomif/libtap/tree/cmake)** that replaces the
 Makefile with Cmake support.
+
+**[tap4embedded](https://framagit.org/fperrad/tap4embedded)** is a TAP producer
+library designed for C embedded.
 
 ## <a id="cplusplus"></a> [C++](#cplusplus)
 
