@@ -88,6 +88,10 @@ Tests built with [GLib's test
 framework](https://developer.gnome.org/glib/stable/glib-Testing.html)
 produce TAP version 12 when run with the `--tap` option.
 
+**[KUnit](https://www.kernel.org/doc/html/latest/dev-tools/kunit/start.html)**
+is a unit testing framework for the Linux Kernel. Test output is written
+to the kernel log in TAP format.
+
 **[libtap](http://github.com/zorgnax/libtap)** is another TAP library that
 follows the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 
