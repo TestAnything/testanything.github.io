@@ -62,7 +62,7 @@ input TAP into structs that can be used for further information processing.
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)*
 
-**[tap4j](http://www.tap4j.org/)** is a full featured TAP library which
+**[tap4j](https://tupilabs.com/tap4j/tap4j/)** is a full featured TAP library which
 is integrated at the core of other Java projects like the
 [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
 
