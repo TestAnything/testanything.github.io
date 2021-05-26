@@ -300,11 +300,11 @@ a test harness and can output its results in TAP format.
 >
 > *From [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)*
 
-**[JTap](http://svn.solucorp.qc.ca/repos/solucorp/JTap/trunk/)**
+**[JTap](https://solucorp.solutions/repos/solucorp/JTap/trunk/)**
 is a TAP library that implements most of the
 [Test::More](http://perldoc.perl.org/Test/More.html) API.
 
-**[tap4j](http://www.tap4j.org/)** is a full featured TAP library which
+**[tap4j](https://tupilabs.com/tap4j/tap4j/)** is a full featured TAP library which
 is integrated at the core of other Java projects like the
 [Jenkins TAP Plugin](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin).
 

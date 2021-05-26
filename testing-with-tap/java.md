@@ -9,7 +9,7 @@ title: Testing with Java
 
 ### Installation
 
-In order to install tap4j you have to download a jar from [http://tupilabs.github.io/tap4j](http://tupilabs.github.io/tap4j) or if you are a Maven user you can add a dependency in your pom.xml, as shown below.
+In order to install tap4j you have to download a jar from [https://tupilabs.com/tap4j/tap4j](https://tupilabs.com/tap4j/tap4j) or if you are a Maven user you can add a dependency in your pom.xml, as shown below.
 
 ```xml
 <dependency>
@@ -19,11 +19,11 @@ In order to install tap4j you have to download a jar from [http://tupilabs.githu
 </dependency>
 ```
 
-Differently than in others implementations, tap4j uses an Object Oriented approach. Instead of calling methods like ok(), not_ok(), is() and isnt(), you construct objects such as a TAP Producer to dump TAP and a TAP Consumer to load TAP. A [TestSet](http://tupilabs.github.io/tap4j/tap4j/apidocs/org/tap4j/model/TestSet.html) object is used to encapsulate all the TAP Elements.
+Differently than in others implementations, tap4j uses an Object Oriented approach. Instead of calling methods like ok(), not_ok(), is() and isnt(), you construct objects such as a TAP Producer to dump TAP and a TAP Consumer to load TAP. A [TestSet](https://tupilabs.com/tap4j/tap4j/apidocs/org/tap4j/model/TestSet.html) object is used to encapsulate all the TAP Elements.
 
 ## Generating TAP using a TAP Producer
 
-The TAP Producers in tap4j are created using a [TapProducerFactory](http://tupilabs.github.io/tap4j/tap4j/apidocs/org/tap4j/producer/TapProducerFactory.html). After a TAP Producer is created we can call the dump method passing a [TestSet](http://tupilabs.github.io/tap4j/tap4j/apidocs/org/tap4j/model/TestSet.html) to have the result TAP.
+The TAP Producers in tap4j are created using a [TapProducerFactory](https://tupilabs.com/tap4j/tap4j/apidocs/org/tap4j/producer/TapProducerFactory.html). After a TAP Producer is created we can call the dump method passing a [TestSet](https://tupilabs.com/tap4j/tap4j/apidocs/org/tap4j/model/TestSet.html) to have the result TAP.
 
 ```java
 TapProducer tapProducer = TapProducerFactory.makeTap13Producer();
@@ -56,7 +56,7 @@ not ok 2
 
 ## Reading TAP using a TAP Consumer
 
-If you understood about how tap4j works, reading a TAP Stream will be quite easy for you. You just have to create a TAP Consumer using guess what? Yeah, a [TapConsumerFactory](http://tupilabs.github.io/tap4j/tap4j/apidocs/org/tap4j/consumer/TapConsumerFactory.html). The method of the TAP Consumer to load TAP is load(). This method will return a [TestSet](http://tupilabs.github.io/tap4j/tap4j/apidocs/org/tap4j/model/TestSet.html). Let's read the output from the previous section.
+If you understood about how tap4j works, reading a TAP Stream will be quite easy for you. You just have to create a TAP Consumer using guess what? Yeah, a [TapConsumerFactory](https://tupilabs.com/tap4j/tap4j/apidocs/org/tap4j/consumer/TapConsumerFactory.html). The method of the TAP Consumer to load TAP is load(). This method will return a [TestSet](https://tupilabs.com/tap4j/tap4j/apidocs/org/tap4j/model/TestSet.html). Let's read the output from the previous section.
 
 ```java
 TapConsumer tapConsumer = TapConsumerFactory.makeTap13Consumer();

@@ -385,9 +385,9 @@ http://search.cpan.org/dist/Apache-Test/
 ## Java
 tap4j provides objects to create TestSets, TestResults, BailOuts and, using a TapProducer, dump it into a java.io.File or String. It also provides TapConsumer's to load TapStreams from Strings or java.io.File's. YAMLish is interpreted and made available as diagnostics of each TestResult object of a TestSet.
 
--    [tap4j](http://www.tap4j.org)
--    [Example of a TapConsumer in Java with tap4j + YAMLish](http://tap4j.org/tap4j/tapconsumer.html)
--    [Example of a TapProducer in Java with tap4j + YAMLish](http://tap4j.org/tap4j/tapproducer.html)
+-    [tap4j](https://tupilabs.com/tap4j/tap4j/)
+-    [Example of a TapConsumer in Java with tap4j + YAMLish](https://tupilabs.com/tap4j/tap4j/tapconsumer.html)
+-    [Example of a TapProducer in Java with tap4j + YAMLish](https://tupilabs.com/tap4j/tap4j/tapproducer.html)
 
 tap4j is licensed under MIT License.
 
