@@ -44,8 +44,8 @@ Languages:
 [Sass](#sass),
 [Shell](#shell),
 [SQL](#sql),
-[TypeScript](#typescript)
 and
+[TypeScript](#typescript).
 
 Some test frameworks exist with
 [TAP producers that are not language specific](#frameworks).
