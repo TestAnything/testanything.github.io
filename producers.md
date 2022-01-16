@@ -44,9 +44,8 @@ Languages:
 [Sass](#sass),
 [Shell](#shell),
 [SQL](#sql),
-[TypeScript](#typescript)
 and
-[Zsh](#zsh).
+[TypeScript](#typescript).
 
 Some test frameworks exist with
 [TAP producers that are not language specific](#frameworks).
@@ -601,6 +600,9 @@ library that provides helpers similar to the
 [Test2 suite](https://metacpan.org/release/Test2-Suite).
 This module is a part of the [uze](http://zsh-uze.github.io/) ecosystem.
 
+**[ZTAP](https://github.com/mattmc3/ztap)** is a TAP producer and test harness for
+[zsh](http://www.zsh.org).
+
 ## <a id="sql"></a> [SQL](#sql)
 
 > SQL (Structured Query Language) is a special-purpose programming language
@@ -640,16 +642,6 @@ framework which supports test cases and outputs TAP output.
 
 **[TypeSpec](https://github.com/Steve-Fenton/TypeSpec)** is a BDD framework
 for TypeScript with a built-in TapReporter class for TAP compliant output.
-
-## <a id="zsh"></a> [Zsh](#zsh)
-
-> Zsh is a shell designed for interactive use,
-> although it is also a powerful scripting language.
->
-> *From [zsh.org](https://www.zsh.org)*
-
-**[ZTAP](https://github.com/mattmc3/ztap)** is a TAP producer
-and test harness for Zsh.
 
 ## <a id="frameworks"></a> [Test frameworks](#frameworks)
 
