@@ -130,6 +130,11 @@ embedded within `libperl++`. It is a mostly complete port of
 **[libtappp](https://github.com/cbab/libtappp)** is a fork of `libtap++`
 that removes the build time dependency to [Boost](http://www.boost.org/).
 
+**[QtTest](https://doc.qt.io/qt-6/qttest-index.html)** is the testing
+framework of [The Qt Project](https://www.qtproject.org/) and supports
+output in TAP format, by passing the `-tap` option on a test's
+command-line.
+
 ## [C# <a id="csharp"></a>](#csharp)
 
 > C# is a multi-paradigm programming language encompassing strong typing,
