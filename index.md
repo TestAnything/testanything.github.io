@@ -47,9 +47,9 @@ TODO review needed
 
 ## Specifications
 
--    [TAP specification](/tap-specification.html)
--    [TAP version 13 specification](/tap-version-13-specification.html)
 -    [TAP version 14 specification](/tap-version-14-specification.html) (Current)
+-    [TAP version 13 specification](/tap-version-13-specification.html)
+-    [TAP specification](/tap-specification.html)
 
 ## External Resources
 
