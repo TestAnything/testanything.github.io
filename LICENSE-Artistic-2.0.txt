@@ -1,34 +1,3 @@
-The npm application
-Copyright (c) npm, Inc. and Contributors
-Licensed on the terms of The Artistic License 2.0
-
-Node package dependencies of the npm application
-Copyright (c) their respective copyright owners
-Licensed on their respective license terms
-
-The npm public registry at https://registry.npmjs.org
-and the npm website at https://www.npmjs.com
-Operated by npm, Inc.
-Use governed by terms published on https://www.npmjs.com
-
-"Node.js"
-Trademark Joyent, Inc., https://joyent.com
-Neither npm nor npm, Inc. are affiliated with Joyent, Inc.
-
-The Node.js application
-Project of Node Foundation, https://nodejs.org
-
-The npm Logo
-Copyright (c) Mathias Pettersson and Brian Hammond
-
-"Gubblebum Blocky" typeface
-Copyright (c) Tjarda Koster, https://jelloween.deviantart.com
-Used with permission
-
-
---------
-
-
 The Artistic License 2.0
 
 Copyright (c) 2000-2006, The Perl Foundation.
