@@ -136,7 +136,12 @@ Allowed header at end.
 
 Implemented in [Test::Harness](http://search.cpan.org/dist/Test-Harness/) 1.21.
 
-### Version 13 (Current version)
+### Version 13
 Understands TAP version syntax.
 
 Implemented in [TAP::Parser](http://search.cpan.org/dist/Test-Harness/lib/TAP/Parser.pm) 0.52.
+
+### Version 14 (Current version)
+Adds subtest test syntax.
+
+More precise specification of harness behavior across language runtimes.
