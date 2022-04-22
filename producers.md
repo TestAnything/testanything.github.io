@@ -660,11 +660,11 @@ of high level testing.
 **[autotest](http://autotest.github.io/)** is a framework for fully automated
 testing with the ability to produce TAP reports.
 
-**[Xperior](https://github.com/Xyratex/xperior)** is a system for testing
-distributed filesystems. Xperior can output TAP test results.
-
 **[CMake](https://cmake.org/)** is an open-source, cross-platform family of
 tools designed to build, test and package software. CMake tests produce TAP
 output with option `-A`,
 [added](https://github.com/Kitware/CMake/commit/3f6ff4b5dba01f2f58dca75546ebefd0830110a5)
 since version 3.23.1.
+
+**[Xperior](https://github.com/Xyratex/xperior)** is a system for testing
+distributed filesystems. Xperior can output TAP test results.
