@@ -380,6 +380,9 @@ for Lua with a built-in TAP output handler.
 a port of the [Test::More](http://perldoc.perl.org/Test/More.html) framework
 to Lua.
 
+**[luatest](https://github.com/tarantool/luatest)** is
+a test framework written in Lua.
+
 ## <a id="matlab"></a> [MATLAB](#matlab)
 
 > MATLAB is a high-level language for numerical computation, visualization,
@@ -659,3 +662,9 @@ testing with the ability to produce TAP reports.
 
 **[Xperior](https://github.com/Xyratex/xperior)** is a system for testing
 distributed filesystems. Xperior can output TAP test results.
+
+**[CMake](https://cmake.org/)** is an open-source, cross-platform family of
+tools designed to build, test and package software. CMake tests produce TAP
+output with option `-A`,
+[added](https://github.com/Kitware/CMake/commit/3f6ff4b5dba01f2f58dca75546ebefd0830110a5)
+since version 3.23.1.
