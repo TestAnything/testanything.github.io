@@ -98,8 +98,8 @@ follows the [Test::More](http://perldoc.perl.org/Test/More.html) API.
 producer for C. This library is different from the MyTAP producer for MySQL.
 See [SQL](#sql).
 
-**[shlmoifish libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
-TAP version 12 producer for C. Discontinued in favor of libtap.
+**[Shlomi Fish's libtap](http://www.shlomifish.org/open-source/projects/libtap/)** is a
+TAP version 12 producer for C. Discontinued in favor of cmocka and libtap.
 
 The shlomifish libtap fork has
 **[a branch](https://github.com/shlomif/libtap/tree/cmake)** that replaces the
