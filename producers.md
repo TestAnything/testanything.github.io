@@ -334,8 +334,9 @@ that runs on [Node.js][node] that has a TAP 'formatter'.
 **[Mocha](http://mochajs.org/)** is a [Node.js][node] and browser testing
 framework that has a [TAP reporter](http://mochajs.org/#tap).
 
-**[node-tap](https://github.com/isaacs/node-tap)** is a [Node.js][node]
-test framework and harness toolkit that produces and consumes the TAP format.
+**[node-tap](https://github.com/isaacs/node-tap)** <span
+class="badge">14</span> is a [Node.js][node] test framework and harness toolkit
+that produces and consumes the TAP format.
 
 **[Painless](https://github.com/taylorhakes/painless)** a modern, easy to use test library for node and browsers that has an optional TAP reporter.
 
