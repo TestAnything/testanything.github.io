@@ -373,7 +373,7 @@ is a TAP producer that supports version 12.
 >
 > *From [lua.org](http://www.lua.org/about.html)*
 
-**[busted](http://olivinelabs.com/busted/)** is a unit testing framework
+**[busted](https://lunarmodules.github.io/busted/)** is a unit testing framework
 for Lua with a built-in TAP output handler.
 
 **[lua-TestMore](http://fperrad.github.io/lua-TestMore/)** is
