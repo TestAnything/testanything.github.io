@@ -334,11 +334,15 @@ that runs on [Node.js][node] that has a TAP 'formatter'.
 **[Mocha](http://mochajs.org/)** is a [Node.js][node] and browser testing
 framework that has a [TAP reporter](http://mochajs.org/#tap).
 
+[node]: https://nodejs.org
+
+**[node](https://nodejs.org/docs/latest-v18.x/api/test.html#test-runner)** >= version 18 has an experimental *built-in* test runner which facilitates the creation of JavaScript tests that produce results in TAP format.
+
 **[node-tap](https://github.com/isaacs/node-tap)** <span
 class="badge">14</span> is a [Node.js][node] test framework and harness toolkit
 that produces and consumes the TAP format.
 
-**[Painless](https://github.com/taylorhakes/painless)** a modern, easy to use test library for node and browsers that has an optional TAP reporter.
+**[Painless](https://github.com/taylorhakes/painless)** a modern, easy to use test library for [Node.js][node] and browsers that has an optional TAP reporter.
 
 **[qunit-tap](https://github.com/twada/qunit-tap)** is a TAP output producer
 plugin for [QUnit](http://qunitjs.com/).
@@ -352,9 +356,7 @@ the browsers and outputs TAP.
 **[Test.Simple](https://github.com/theory/test-simple-js)** is a TAP-emitting
 JavaScript test framework.
 
-**[zora](https://github.com/lorenzofox3/zora)** is a TAP producer with pure ES6 support for node.js and browsers without babel.
-
-[node]: https://nodejs.org/en/
+**[zora](https://github.com/lorenzofox3/zora)** is a TAP producer with pure ES6 support for [Node.js][node] and browsers without babel.
 
 ## <a id="limbo"></a> [Limbo (OS Inferno)](#limbo)
 
