@@ -18,6 +18,7 @@ Languages:
 [JavaScript](#javascript),
 [Perl](#perl),
 [Python](#python),
+[Ruby](#ruby),
 and
 [Others](#others).
 
@@ -83,6 +84,11 @@ is integrated at the core of other Java projects like the
 - [TapTinder](http://dev.taptinder.org/wiki/TapTinder)
 - [metatap](http://search.cpan.org/search?query=metatap)
 - [Tapper test infrastructure](http://tapper-testing.org)
+
+## <a id="ruby"></a> [Ruby](#ruby)
+
+- [ruby-tap-parser](https://github.com/vincent-psarga/ruby-tap-parser)
+
 
 ## <a id="others"></a> [Others](#others)
 
