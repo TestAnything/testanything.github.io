@@ -511,7 +511,7 @@ were not tested, if that is appropriate for their use case.
 ### YAML Diagnostics
 
 If a Test Point is followed by a 2-space indented block beginning with the
-line `  ---` and ending with the line `  ...`, separated from the Test
+line ``  ---`` and ending with the line ``  ...``, separated from the Test
 Point only by comments or whitespace, then the block of lines between these
 markers will be interpreted as an inline YAML Diagnostic document according
 to version 1.2 of the [YAML specification](https://yaml.org).
