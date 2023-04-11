@@ -96,3 +96,4 @@ is integrated at the core of other Java projects like the
 - [Desktop notifications](https://github.com/ryandoyle/shouldertap)
 - Automake 1.13+ can [run TAP tests](https://www.gnu.org/software/automake/manual/html_node/Using-the-TAP-test-protocol.html#Using-the-TAP-test-protocol) for `make check`, via `tap-driver.sh`.
 - [Kyua](https://github.com/jmmv/kyua) Testing framework for infrastructure software.
+- Meson 0.50+ supports using TAP with its [`test` function](https://mesonbuild.com/Reference-manual_functions.html#test).
