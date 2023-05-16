@@ -485,11 +485,6 @@ testing frameworks and supports logging TAP.
 **[SimpleTest TAP reporter](http://digitalsandwich.com/Updated-Simpletest+Apache-Test/)**
 is a TAP producer for [SimpleTest](http://www.simpletest.org/).
 
-
-
-
-
-
 **[Test.php](http://search.cpan.org/dist/Test.php/Test.php)** is a TAP test
 framework for PHP with an interface like
 [Test::More](http://perldoc.perl.org/Test/More.html).
