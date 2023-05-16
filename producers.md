@@ -485,11 +485,6 @@ testing frameworks and supports logging TAP.
 **[SimpleTest TAP reporter](http://digitalsandwich.com/Updated-Simpletest+Apache-Test/)**
 is a TAP producer for [SimpleTest](http://www.simpletest.org/).
 
-**[SnapTest](http://www.snaptest.net/)** is a powerful unit testing framework
-for PHP 5+, leveraging PHP's unique runtime language to simplify the unit
-test process without sacrificing the agility tests provide. It has a built-in
-TAP reporter.
-
 **[Test.php](http://search.cpan.org/dist/Test.php/Test.php)** is a TAP test
 framework for PHP with an interface like
 [Test::More](http://perldoc.perl.org/Test/More.html).
