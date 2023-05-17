@@ -475,15 +475,9 @@ richer Perl library written to replace the old test suite.
 >
 > *From [php.net](https://secure.php.net/manual/en/intro-whatis.php)*
 
-**[Lens](http://lens.guide/)**
-is a PHP unit-testing framework with readable tests that catch everything.
-
 **[PHPUnit](http://www.phpunit.de/)** is a programmer-oriented testing
 framework for PHP. It is an instance of the xUnit architecture for unit
 testing frameworks and supports logging TAP.
-
-**[SimpleTest TAP reporter](http://digitalsandwich.com/Updated-Simpletest+Apache-Test/)**
-is a TAP producer for [SimpleTest](http://www.simpletest.org/).
 
 **[Test.php](http://search.cpan.org/dist/Test.php/Test.php)** is a TAP test
 framework for PHP with an interface like
