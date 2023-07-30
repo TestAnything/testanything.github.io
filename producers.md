@@ -432,6 +432,9 @@ framework for Omnis Studio.
 is a very easy-to-use, but powerful unit testing suite for Pascal
 (FreePascal, Turbo Pascal, et al), conforming to the TAP specification.
 
+**[pascal-tap](https://github.com/bbrtj/pascal-tap)**
+is a simple toolkit for producing TAP output written in Object Pascal (fpc).
+
 ## <a id="perl5"></a> [Perl5](#perl5)
 
 > Perl is a general-purpose programming language originally developed for
