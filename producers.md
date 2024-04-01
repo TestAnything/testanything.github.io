@@ -598,6 +598,9 @@ has a TAP formatter.
 **[Tapper-autoreport](https://github.com/tapper/Tapper-autoreport)**
 turns bash scripts into TAP test scripts.
 
+**[tap.sh](https://github.com/dnmfarrell/tap.sh)** is a minimalist
+POSIX-compliant shell library to write TAP tests.
+
 **[uze TAP](https://github.com/zsh-uze/devel-tap)** is a [zsh](http://www.zsh.org)
 library that provides helpers similar to the
 [Test2 suite](https://metacpan.org/release/Test2-Suite).
