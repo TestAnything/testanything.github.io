@@ -5,7 +5,7 @@ title: Testing with C++
 
 # Testing with C++
 
-## Testing using libtap++
+## Testing using LibTAP++
 
 ### SYNOPSIS
 
@@ -32,15 +32,16 @@ int main() {
 }
 ```
 
-Remember to link with libtap++. For example: `g++ -ltap++ tap-synopsis.o -o tap-synopsis`
+Remember to link with LibTAP++. For example: `g++ -ltap++ tap-synopsis.o -o tap-synopsis`
 
 ### DESCRIPTION
 
-libtap++ is a TAP producer for C++ programs. It tries to follow the interface of Test::More as much as possible, while at the same time making use of the full extent of C++'s features.
+LibTAP++ is a TAP producer for C++ programs. It tries to follow the interface of Test::More as much as possible, while at the same time making use of the full extent of C++'s features.
 
 ### Getting libtap++
 
-libtap++ is currently part of libperl-- hosted on github. It can be downloaded at [https://github.com/Leont/libperl--](https://github.com/Leont/libperl--).
+Latest version of LibTAP++, that is adapted to the latest C++ standards can
+be found at [https://gitlab.com/dhyannataraj/libtappp](https://gitlab.com/dhyannataraj/libtappp)
 
 ### FUNCTIONS
 
