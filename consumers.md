@@ -13,6 +13,7 @@ grouped by programming language.
 
 Languages:
 [C](#c),
+[Elvish](#elvish),
 [Go](#go),
 [Java](#java),
 [JavaScript](#javascript),
@@ -49,6 +50,11 @@ written with YACC and Lex.
 
 **[tapto](https://github.com/katef/tapto)** is a TAP parser that formats
 results to XML and other formats.
+
+## <a id="elvish"></a> [Elvish](#elvish)
+
+**[elvish-tap](https://github.com/tesujimath/elvish-tap)** is a TAP producer
+and basic consumer for Elvish.
 
 ## <a id="go"></a> [Go](#go)
 

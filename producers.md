@@ -18,6 +18,7 @@ Languages:
 [Common Lisp](#common-lisp),
 [Crystal](#crystal),
 [Elixir](#elixir),
+[Elvish](#elvish),
 [Erlang](#erlang),
 [Fish](#fish),
 [Forth](#forth),
@@ -182,6 +183,21 @@ that comes with Crystal's standard library includes a TAP formatter.
 generates TAP output for existing ExUnit test suites. Spout provides
 a simple way to generate TAP output without having to modify existing
 test code. Based on CTTAP.
+
+## <a id="elvish"></a> [Elvish](#elvish)
+
+> Elvish (noun):
+>
+> A powerful scripting language.
+>
+> A shell with useful interactive features built-in.
+>
+> A statically linked binary for Linux, BSDs, macOS or Windows.
+>
+> *From [elv.sh](https://elv.sh/)*
+
+**[elvish-tap](https://github.com/tesujimath/elvish-tap)** is a TAP producer
+and basic consumer for Elvish.
 
 ## <a id="erlang"></a> [Erlang](#erlang)
 
