@@ -124,12 +124,17 @@ Looking for a guide?
 is a TAP producer for [GoogleTest](https://github.com/google/googletest),
 Google's C++ test framework.
 
-**[libtap++](https://github.com/Leont/libperl--)** is a TAP library
-embedded within `libperl++`. It is a mostly complete port of
-[Test::More](http://perldoc.perl.org/Test/More.html) to C++.
+**[LibTAP++](https://gitlab.com/dhyannataraj/libtappp)** is a TAP producer for
+C++ programs. It is a mostly complete port of
+[Test::More](http://perldoc.perl.org/Test/More.html) to C++. This library
+supports modern C++ standards.
 
-**[libtappp](https://github.com/cbab/libtappp)** is a fork of `libtap++`
-that removes the build time dependency to [Boost](http://www.boost.org/).
+Legacy versions:
+- **[libtap++](https://github.com/Leont/libperl--)** is embedded within
+`libperl++`. It has the build time dependency to [Boost](http://www.boost.org/).
+
+- **[libtappp](https://github.com/cbab/libtappp)** older fork of `libtap++`
+that does not support modern C++ standards.
 
 **[QtTest](https://doc.qt.io/qt-6/qttest-index.html)** is the testing
 framework of [The Qt Project](https://www.qtproject.org/) and supports
