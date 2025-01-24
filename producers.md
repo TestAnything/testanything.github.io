@@ -360,8 +360,12 @@ that produces and consumes the TAP format.
 
 **[Painless](https://github.com/taylorhakes/painless)** a modern, easy to use test library for [Node.js][node] and browsers that has an optional TAP reporter.
 
+**[QUnit](https://qunitjs.com/)** is a JavaScript unit testing framework
+for [Node.js][node] and web browsers that has a [TAP reporter](https://qunitjs.com/api/reporters/tap/)
+and uses it by default when used from the command-line.
+
 **[qunit-tap](https://github.com/twada/qunit-tap)** is a TAP output producer
-plugin for [QUnit](http://qunitjs.com/).
+plugin for [QUnit](https://qunitjs.com/).
 
 **[tape](https://github.com/substack/tape)** is a TAP producing test harness
 for [Node.js][node] and browsers.
