@@ -615,6 +615,9 @@ Since all tests output TAP, they can be run with any TAP harness.
 BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells,
 has a TAP formatter.
 
+**[Shmore](https://github.com/magisterquis/shmore)** is a shell
+reimplementation of Perl's [Test::More](https://perldoc.perl.org/Test::More).
+
 **[Tapper-autoreport](https://github.com/tapper/Tapper-autoreport)**
 turns bash scripts into TAP test scripts.
 
